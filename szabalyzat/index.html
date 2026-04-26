@@ -17,6 +17,7 @@
   --border: #1e1e3a;
 }
 
+/* BASE */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -24,6 +25,7 @@ body {
   color: var(--text-primary);
 }
 
+/* Glow anim */
 .bg-glow {
   position: fixed;
   top: -300px;
@@ -41,19 +43,27 @@ body {
   100% { transform: translateX(-55%) translateY(-40px); opacity: 1; }
 }
 
+/* HEADER */
 .header {
   text-align: center;
   padding: 80px 20px 30px;
-  z-index: 1;
   position: relative;
+  z-index: 1;
 }
 
 .title {
   font-size: 3rem;
   font-weight: 900;
   color: var(--red);
+  text-transform: uppercase;
 }
 
+.title span {
+  color: var(--text-primary);
+  text-shadow: 0 0 40px var(--red-glow);
+}
+
+/* CONTENT */
 .container {
   max-width: 900px;
   margin: auto;
@@ -62,88 +72,56 @@ body {
   z-index: 1;
 }
 
-.rule {
-  margin-top: 10px;
-}
-
-.rule .toggle {
-  cursor: pointer;
-  font-weight: bold;
-  position: relative;
-}
-
-.toggle::after {
-  content: "▼";
-  position: absolute;
-  right: -18px;
-  font-size: 10px;
-}
-
-.collapsed > .toggle::after {
-  content: "▶";
-}
-
-.content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  will-change: max-height;
-}
-
-/* SZINTEK  */
 /* LEVEL 1 */
-.level-1 > .toggle {
+.level-1 {
+  margin-top: 40px;
+}
+
+.level-1-title {
   font-size: 1.6rem;
   font-weight: 900;
   color: var(--red);
-  margin-top: 25px;
-  letter-spacing: 0.5px;
+  margin-bottom: 10px;
 }
 
 /* LEVEL 2 */
-.level-2 > .toggle {
+.level-2 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.level-2-title {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin-top: 15px;
 }
 
 /* LEVEL 3 */
-.level-3 > .toggle {
-  font-size: 1rem;
-  font-weight: 600;
+.level-3 {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.level-3-title {
+  font-size: 0.95rem;
+  font-weight: 700;
   color: var(--text-secondary);
-  margin-top: 10px;
 }
 
-/* SZÖVEG */
-.rule-text {
-  font-size: 0.85rem;
-  line-height: 1.6;
-  color: #cfcfe8; /* nem fakul bele */
+/* TEXT */
+.level-text {
   margin-top: 6px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #cfcfe8;
 }
 
-/* BEHÚZÁSOK */
-.level-2 { margin-left: 20px; }
-.level-3 { margin-left: 40px; }
-
-/* HOVER (extra UX) */
-.toggle:hover {
-  color: var(--red);
-}
-
-/* NYÍL finomhangolás */
-.toggle::after {
-  font-size: 11px;
-  opacity: 0.7;
-}
 
 .search-box {
   text-align: center;
+  margin: 60px 0;
   margin: 20px;
 }
-
 .search-box input {
   width: 300px;
   padding: 10px;
@@ -152,175 +130,173 @@ body {
   color: white;
   border-radius: 6px;
 }
-
 .highlight {
   background: rgba(219,10,64,0.25);
   border-radius: 4px;
   padding: 1px 3px;
 }
-
 .no-result {
   text-align: center;
   color: var(--red);
   margin-top: 20px;
   display: none;
 }
+
+
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin: 60px 0;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
 </style>
 </head>
+
 
 <body>
 
 <div class="bg-glow"></div>
 
 <div class="header">
-  <div class="title">F1 Challenge Szabályzat</div>
+  <div class="title">F1 Challenge <span>Szabályzat</span></div>
 </div>
 
 <div class="search-box">
   <input type="text" id="search" placeholder="Keresés... (Ctrl+F)">
 </div>
 
-<div class="container" id="rules">
+<div class="container">
 
-<!-- 1 -->
-<div class="rule level-1 collapsed">
-  <div class="toggle">1. Versenyszabályok</div>
-  <div class="content">
-
-    <div class="rule level-2 collapsed">
-      <div class="toggle">1.1 Tiszta versenyzés</div>
-      <div class="content">
-
-        <div class="rule level-3 collapsed">
-          <div class="toggle">1.1.1</div>
-          <div class="content">
-            <div class="rule-text">
-              Mindig a tiszta versenyzés a fő szempont...
-            </div>
-          </div>
-        </div>
-
-        <div class="rule level-3 collapsed">
-          <div class="toggle">1.1.2</div>
-          <div class="content">
-            <div class="rule-text">
-              Az agresszív szabályszegés kizárást vonhat maga után.
-            </div>
-          </div>
-        </div>
-
-      </div>
+  <!-- 1 -->
+  <div class="level-1">
+    <div class="level-1-title">1. Versenyszabályok</div>
+    <div class="level-text">
+      EZEK A VERSENYSZABÁLYOK
     </div>
 
-    <div class="rule level-2 collapsed">
-      <div class="toggle">1.2 Pályán való küzdelem</div>
-      <div class="content">
-
-        <div class="rule level-3 collapsed">
-          <div class="toggle">1.2.1</div>
-          <div class="content"><div class="rule-text">Ne legyél agresszív...</div></div>
-        </div>
-
-        <div class="rule level-3 collapsed">
-          <div class="toggle">1.2.2</div>
-          <div class="content"><div class="rule-text">Ne szoríts le mást...</div></div>
-        </div>
-
+    <div class="level-2">
+      <div class="level-2-title">1.1 Tiszta versenyzés</div>
+      <div class="level-text">
+        Fontos a tiszta versenyzés
       </div>
+
+      <div class="level-3">
+        <div class="level-3-title">1.1.1</div>
+        <div class="level-text">
+          Mindig a tiszta versenyzés a fő szempont. A pályán nem történhet ütközés az autók között...
+        </div>
+      </div>
+
+      <div class="level-3">
+        <div class="level-3-title">1.1.2</div>
+        <div class="level-text">
+          Az agresszivitásra vonatkozó szabályok tudatos megszegése kizárást vonhat maga után.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="level-2">
+      <div class="level-2-title">1.2 Pályán való küzdelem</div>
+
+      <div class="level-3">
+        <div class="level-3-title">1.2.1</div>
+        <div class="level-text">
+          Ne legyél túl agresszív előzés közben. Mindkét fél felelős a tiszta versenyzésért.
+        </div>
+      </div>
+
+      <div class="level-3">
+        <div class="level-3-title">1.2.2</div>
+        <div class="level-text">
+          Ne kényszerítsd le a másik autót a pályáról.
+        </div>
+      </div>
+
     </div>
 
   </div>
-</div>
+
+  <!-- 2 -->
+  <div class="level-1">
+    <div class="level-1-title">2. Pályán érvényes szabályok</div>
+
+    <div class="level-2">
+      <div class="level-2-title">2.1 Játékbeli büntetések</div>
+
+      <div class="level-text">
+        Ha úgy érzed, hogy a játék igazságtalan büntetést adott...
+      </div>
+
+    </div>
+
+  </div>
 
 </div>
 
 <div class="no-result" id="noResult">Nincs találat</div>
 
+<div class="footer">
+  Rajtvonal F1 Challenge • Szabályzat
+</div>
+
+</body>
+</html>
+
 <script>
+const input = document.getElementById("search");
+const noResult = document.getElementById("noResult");
 
-// toggle működés
-function closeChildren(parent){
-  parent.querySelectorAll(".rule").forEach(r=>{
-    r.classList.add("collapsed");
-    const c = r.querySelector(":scope > .content");
-    if(c) c.style.maxHeight = null;
-  });
-}
-
-document.querySelectorAll(".toggle").forEach(t=>{
-  t.addEventListener("click", ()=>{
-    const p = t.parentElement;
-    const c = p.querySelector(":scope > .content");
-
-    if(!c) return;
-
-    if(p.classList.contains("collapsed")){
-      p.classList.remove("collapsed");
-
-      // 🔥 FONTOS: auto + scrollHeight fix
-      c.style.maxHeight = c.scrollHeight + "px";
-
-    } else {
-      p.classList.add("collapsed");
-      c.style.maxHeight = null;
-
-      closeChildren(p);
-    }
-  });
-});
-
-// keresés
 input.addEventListener("input", function(){
-  const val = this.value.toLowerCase();
+  const val = this.value.toLowerCase().trim();
   let found = false;
 
-  // 🔥 RESET MINDEN ELŐSZÖR
-  document.querySelectorAll(".rule").forEach(r => {
-    r.style.display = "block";
-  });
+  const allBlocks = document.querySelectorAll(".level-1, .level-2, .level-3");
 
-  document.querySelectorAll(".rule-text").forEach(el=>{
-    const originalText = el.innerText;
-    el.innerHTML = originalText;
+  // RESET
+  document.querySelectorAll(".level-text, .level-1-title, .level-2-title, .level-3-title")
+    .forEach(el => {
+      el.innerHTML = el.innerText;
+    });
 
-    if(val === "") return;
+  allBlocks.forEach(b => b.style.display = "block");
 
-    if(originalText.toLowerCase().includes(val)){
+  if(val === ""){
+    noResult.style.display = "none";
+    return;
+  }
+
+  allBlocks.forEach(block => {
+    const text = block.innerText.toLowerCase();
+
+    if(text.includes(val)){
       found = true;
 
-      const regex = new RegExp(`(${val})`, "gi");
-      el.innerHTML = originalText.replace(regex, `<span class="highlight">$1</span>`);
-
-      // 🔥 SZÜLŐK LENYITÁSA
-      let parent = el.closest(".rule");
-      while(parent){
-        parent.classList.remove("collapsed");
-
-        const c = parent.querySelector(":scope > .content");
-        if(c){
-          c.style.maxHeight = c.scrollHeight + "px";
-        }
-
-        parent = parent.parentElement.closest(".rule");
-      }
+      // highlight
+      block.querySelectorAll(".level-text, .level-1-title, .level-2-title, .level-3-title")
+        .forEach(el => {
+          const original = el.innerText;
+          const regex = new RegExp(`(${val})`, "gi");
+          el.innerHTML = original.replace(regex, `<span class="highlight">$1</span>`);
+        });
 
     } else {
-      // 🔥 CSAK AZ ADOTT ÁGAT REJTED EL
-      el.closest(".rule").style.display = "none";
+      block.style.display = "none";
     }
   });
 
-  noResult.style.display = (val !== "" && !found) ? "block" : "none";
+  noResult.style.display = found ? "none" : "block";
 });
 
-// ctrl+f override
+
+// Ctrl+F override
 document.addEventListener("keydown", e=>{
   if(e.ctrlKey && e.key === "f"){
     e.preventDefault();
     input.focus();
   }
 });
-</script>
 
-</body>
-</html>
+</script>
