@@ -89,12 +89,53 @@ body {
   transition: max-height 0.3s ease;
 }
 
+/* SZINTEK  */
+/* LEVEL 1 */
+.level-1 > .toggle {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--red);
+  margin-top: 25px;
+  letter-spacing: 0.5px;
+}
+
+/* LEVEL 2 */
+.level-2 > .toggle {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: 15px;
+}
+
+/* LEVEL 3 */
+.level-3 > .toggle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-top: 10px;
+}
+
+/* SZÖVEG */
+.rule-text {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #cfcfe8; /* nem fakul bele */
+  margin-top: 6px;
+}
+
+/* BEHÚZÁSOK */
 .level-2 { margin-left: 20px; }
 .level-3 { margin-left: 40px; }
 
-.rule-text {
-  font-size: 0.9rem;
-  margin-top: 5px;
+/* HOVER (extra UX) */
+.toggle:hover {
+  color: var(--red);
+}
+
+/* NYÍL finomhangolás */
+.toggle::after {
+  font-size: 11px;
+  opacity: 0.7;
 }
 
 .search-box {
