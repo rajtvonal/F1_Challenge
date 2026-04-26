@@ -17,7 +17,6 @@
   --border: #1e1e3a;
 }
 
-/* BASE */
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -25,7 +24,6 @@ body {
   color: var(--text-primary);
 }
 
-/* Glow anim */
 .bg-glow {
   position: fixed;
   top: -300px;
@@ -43,27 +41,19 @@ body {
   100% { transform: translateX(-55%) translateY(-40px); opacity: 1; }
 }
 
-/* HEADER */
 .header {
   text-align: center;
   padding: 80px 20px 30px;
-  position: relative;
   z-index: 1;
+  position: relative;
 }
 
 .title {
   font-size: 3rem;
   font-weight: 900;
   color: var(--red);
-  text-transform: uppercase;
 }
 
-.title span {
-  color: var(--text-primary);
-  text-shadow: 0 0 40px var(--red-glow);
-}
-
-/* CONTENT */
 .container {
   max-width: 900px;
   margin: auto;
@@ -72,254 +62,212 @@ body {
   z-index: 1;
 }
 
-.content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.35s ease;
+.rule {
+  margin-top: 10px;
 }
 
-/* LEVEL 1 */
-.rule-1 {
-  margin-top: 40px;
-}
-
-.rule-1-title {
-  font-size: 1.6rem;
-  font-weight: 900;
-  color: var(--red);
-  margin-bottom: 10px;
-}
-
-/* LEVEL 2 */
-.rule-2 {
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.rule-2-title {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-/* LEVEL 3 */
-.rule-3 {
-  margin-left: 40px;
-  margin-top: 15px;
-}
-
-.rule-3-title {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: var(--text-secondary);
-}
-
-.toggle {
+.rule .toggle {
   cursor: pointer;
+  font-weight: bold;
   position: relative;
 }
 
 .toggle::after {
   content: "▼";
   position: absolute;
-  right: -20px;
+  right: -18px;
   font-size: 10px;
-  color: var(--text-secondary);
-  transition: 0.2s;
 }
 
 .collapsed > .toggle::after {
   content: "▶";
 }
 
-/* TEXT */
-.rule-text {
-  margin-top: 6px;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  color: #cfcfe8;
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
 
+.level-2 { margin-left: 20px; }
+.level-3 { margin-left: 40px; }
+
+.rule-text {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
 
 .search-box {
-  margin-top: 30px;
+  text-align: center;
+  margin: 20px;
 }
 
 .search-box input {
-  width: 100%;
-  max-width: 400px;
-  padding: 12px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
+  width: 300px;
+  padding: 10px;
   background: var(--bg-secondary);
+  border: 1px solid var(--border);
   color: white;
-  outline: none;
-}
-
-.search-box input:focus {
-  border-color: var(--red);
+  border-radius: 6px;
 }
 
 .highlight {
   background: rgba(219,10,64,0.25);
-  color: #fff;
-  padding: 1px 3px;
   border-radius: 4px;
+  padding: 1px 3px;
 }
 
-.no-results {
-  margin-top: 30px;
-  color: var(--text-secondary);
+.no-result {
   text-align: center;
+  color: var(--red);
+  margin-top: 20px;
   display: none;
-}
-
-
-/* Footer */
-.footer {
-  text-align: center;
-  margin: 60px 0;
-  font-size: 11px;
-  color: var(--text-secondary);
 }
 </style>
 </head>
-
 
 <body>
 
 <div class="bg-glow"></div>
 
 <div class="header">
-  <div class="title">F1 Challenge <span>Szabályzat</span></div>
+  <div class="title">F1 Challenge Szabályzat</div>
 </div>
 
 <div class="search-box">
-  <input type="text" id="search" placeholder="Keresés a szabályzatban...">
+  <input type="text" id="search" placeholder="Keresés... (Ctrl+F)">
 </div>
 
-<div class="container">
-<div id="noResults" class="no-results">Nincs találat</div>
-  <!-- 1 -->
-  
-  <div class="rule level-1">
+<div class="container" id="rules">
+
+<!-- 1 -->
+<div class="rule level-1 collapsed">
   <div class="toggle">1. Versenyszabályok</div>
-
   <div class="content">
-    <div class="rule level-2">
-      <div class="toggle">1.1 Tiszta versenyzés</div>
 
+    <div class="rule level-2 collapsed">
+      <div class="toggle">1.1 Tiszta versenyzés</div>
       <div class="content">
-        <div class="rule level-3">
+
+        <div class="rule level-3 collapsed">
           <div class="toggle">1.1.1</div>
           <div class="content">
-            <p>Mindig a tiszta versenyzés a fő szempont...</p>
+            <div class="rule-text">
+              Mindig a tiszta versenyzés a fő szempont...
+            </div>
           </div>
         </div>
+
+        <div class="rule level-3 collapsed">
+          <div class="toggle">1.1.2</div>
+          <div class="content">
+            <div class="rule-text">
+              Az agresszív szabályszegés kizárást vonhat maga után.
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+
+    <div class="rule level-2 collapsed">
+      <div class="toggle">1.2 Pályán való küzdelem</div>
+      <div class="content">
+
+        <div class="rule level-3 collapsed">
+          <div class="toggle">1.2.1</div>
+          <div class="content"><div class="rule-text">Ne legyél agresszív...</div></div>
+        </div>
+
+        <div class="rule level-3 collapsed">
+          <div class="toggle">1.2.2</div>
+          <div class="content"><div class="rule-text">Ne szoríts le mást...</div></div>
+        </div>
+
+      </div>
+    </div>
+
   </div>
-  </div>
-
-
-
-
-<div class="footer">
-  Rajtvonal F1 Challenge • Szabályzat
 </div>
 
-</body>
-</html>
+</div>
+
+<div class="no-result" id="noResult">Nincs találat</div>
 
 <script>
-// --- INIT: minden zárva ---
-document.querySelectorAll(".rule").forEach(r => r.classList.add("collapsed"));
-document.querySelectorAll(".content").forEach(c => c.style.maxHeight = null);
 
-// --- TOGGLE ---
-function closeAllChildren(parent){
-  parent.querySelectorAll(".rule").forEach(child => {
-    child.classList.add("collapsed");
-    const c = child.querySelector(":scope > .content");
+// toggle működés
+function closeChildren(parent){
+  parent.querySelectorAll(".rule").forEach(r=>{
+    r.classList.add("collapsed");
+    const c = r.querySelector(":scope > .content");
     if(c) c.style.maxHeight = null;
   });
 }
 
-document.querySelectorAll(".toggle").forEach(toggle => {
-  toggle.addEventListener("click", () => {
-    const parent = toggle.parentElement;
-    const content = parent.querySelector(":scope > .content");
+document.querySelectorAll(".toggle").forEach(t=>{
+  t.addEventListener("click", ()=>{
+    const p = t.parentElement;
+    const c = p.querySelector(":scope > .content");
 
-    if(!content) return;
+    if(!c) return;
 
-    if(parent.classList.contains("collapsed")){
-      parent.classList.remove("collapsed");
-      content.style.maxHeight = content.scrollHeight + "px";
+    if(p.classList.contains("collapsed")){
+      p.classList.remove("collapsed");
+      c.style.maxHeight = c.scrollHeight + "px";
     } else {
-      parent.classList.add("collapsed");
-      content.style.maxHeight = null;
-      closeAllChildren(parent);
+      p.classList.add("collapsed");
+      c.style.maxHeight = null;
+      closeChildren(p);
     }
   });
 });
 
-// --- HIGHLIGHT HELPER ---
-function highlight(text, search){
-  if(!search) return text;
-  const regex = new RegExp(`(${search})`, "gi");
-  return text.replace(regex, `<span class="highlight">$1</span>`);
-}
+// keresés
+const input = document.getElementById("search");
+const noResult = document.getElementById("noResult");
 
-// --- KERESŐ ---
-const searchInput = document.getElementById("search");
-const noResults = document.getElementById("noResults");
-
-searchInput.addEventListener("input", function(){
-  const value = this.value.toLowerCase().trim();
+input.addEventListener("input", function(){
+  const val = this.value.toLowerCase();
   let found = false;
 
-  document.querySelectorAll(".rule").forEach(rule => {
-    const originalText = rule.innerText;
-    const text = originalText.toLowerCase();
+  document.querySelectorAll(".rule-text").forEach(el=>{
+    const text = el.innerText;
+    el.innerHTML = text;
 
-    // highlight reset
-    rule.querySelectorAll(".highlight").forEach(el=>{
-      el.outerHTML = el.innerText;
-    });
-
-    if(value === "" || text.includes(value)){
-      rule.style.display = "block";
-
-      // highlight
-      if(value !== ""){
-        rule.innerHTML = highlight(rule.innerHTML, value);
-      }
-
-      // szülők lenyitása
-      let parent = rule.parentElement;
-      while(parent){
-        if(parent.classList?.contains("rule")){
-          parent.classList.remove("collapsed");
-          const c = parent.querySelector(":scope > .content");
-          if(c) c.style.maxHeight = c.scrollHeight + "px";
-        }
-        parent = parent.parentElement;
-      }
-
+    if(text.toLowerCase().includes(val) && val !== ""){
       found = true;
+
+      const regex = new RegExp(`(${val})`, "gi");
+      el.innerHTML = text.replace(regex, `<span class="highlight">$1</span>`);
+
+      let parent = el.closest(".rule");
+      while(parent){
+        parent.style.display = "block";
+        parent.classList.remove("collapsed");
+        const c = parent.querySelector(":scope > .content");
+        if(c) c.style.maxHeight = c.scrollHeight + "px";
+        parent = parent.parentElement.closest(".rule");
+      }
+
+    } else if(val !== ""){
+      el.closest(".rule").style.display = "none";
     } else {
-      rule.style.display = "none";
+      el.closest(".rule").style.display = "block";
     }
   });
 
-  noResults.style.display = found ? "none" : "block";
+  noResult.style.display = found || val==="" ? "none" : "block";
 });
 
-// --- CTRL + F OVERRIDE ---
-document.addEventListener("keydown", function(e){
-  if((e.ctrlKey || e.metaKey) && e.key === "f"){
+// ctrl+f override
+document.addEventListener("keydown", e=>{
+  if(e.ctrlKey && e.key === "f"){
     e.preventDefault();
-    searchInput.focus();
+    input.focus();
   }
 });
 </script>
+
+</body>
+</html>
