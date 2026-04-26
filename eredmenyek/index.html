@@ -144,6 +144,19 @@ tr:hover {
   background: #1a1a3a;
 }
 
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.2s;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.3s;
+}
+
+
 /* Színek */
 .rank-1 { color: gold; font-weight: 900; }
 .rank-2 { color: silver; }
@@ -264,8 +277,11 @@ function loadResults(btn){
 
    data.sort((a,b)=>b.total-a.total);
 
+   data = calculateGains(data);
+
    currentData = data;
-   renderTable(data,"main");
+   // renderTable(data,"main");
+   animateTable(()=>renderTable(data,"main"));
    hideRaceButtons();
    updateHeader(["#","Név","Csapat","R1","R2","R3","R4","R5","R6","R7","R8","R9","R10","R11","R12","Pont","Gain"]);
  });
@@ -292,7 +308,9 @@ function renderTable(data, mode="main"){
     <td>${d.team}</td>
     ${races}
     <td>${d.total}</td>
-    <td>0</td>
+    <td style="color:${d.gain>0?'#4ade80':d.gain<0?'#ef4444':'#888'}">
+     ${d.gain>0?`+${d.gain}`:d.gain}
+    </td>
     `;
   }
 
@@ -309,12 +327,56 @@ function renderTable(data, mode="main"){
  });
 }
 
+function calculateGains(data){
+ // utolsó nem üres futam index
+ let lastRace = -1;
+
+ for(let i=11;i>=0;i--){
+   if(data.some(d=>d.results[i])) {
+     lastRace = i;
+     break;
+   }
+ }
+
+ if(lastRace === -1) return data.map(d=>({...d, gain:0}));
+
+ // ranglista az utolsó futam alapján
+ let prev = [...data].map(d=>{
+   let pos = d.results[lastRace];
+   return {
+     name:d.name,
+     pos: pos ? parseInt(pos) : 999
+   };
+ });
+
+ prev.sort((a,b)=>a.pos-b.pos);
+
+ let prevRank = {};
+ prev.forEach((p,i)=> prevRank[p.name]=i+1);
+
+ // jelenlegi rang
+ let current = [...data].sort((a,b)=>b.total-a.total);
+ let currentRank = {};
+ current.forEach((p,i)=> currentRank[p.name]=i+1);
+
+ // gain számítás
+ return data.map(d=>{
+   let oldR = prevRank[d.name] || currentRank[d.name];
+   let newR = currentRank[d.name];
+   return {
+     ...d,
+     gain: oldR - newR
+   };
+ });
+}
+
 function showIndividual(btn){
  setActive(btn);
  hideRaceButtons();
 
  let sorted = [...currentData].sort((a,b)=>b.total-a.total);
- renderTable(sorted,"individual");
+ //renderTable(sorted,"individual");
+ animateTable(()=>renderTable(sorted,"individual"));
 
  updateHeader(["#","Név","Csapat","Pont","Gain"]);
 }
@@ -409,6 +471,19 @@ function showRaceButtons(){
 
    div.appendChild(b);
  }
+}
+
+function animateTable(callback){
+ let tbody = document.getElementById("tbody");
+
+ tbody.classList.remove("fade-in");
+ tbody.classList.add("fade-out");
+
+ setTimeout(()=>{
+   callback();
+   tbody.classList.remove("fade-out");
+   tbody.classList.add("fade-in");
+ },200);
 }
 
 window.onload = async ()=>{
