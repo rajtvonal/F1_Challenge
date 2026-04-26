@@ -87,6 +87,7 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
+  will-change: max-height;
 }
 
 /* SZINTEK  */
@@ -255,50 +256,61 @@ document.querySelectorAll(".toggle").forEach(t=>{
 
     if(p.classList.contains("collapsed")){
       p.classList.remove("collapsed");
+
+      // 🔥 FONTOS: auto + scrollHeight fix
       c.style.maxHeight = c.scrollHeight + "px";
+
     } else {
       p.classList.add("collapsed");
       c.style.maxHeight = null;
+
       closeChildren(p);
     }
   });
 });
 
 // keresés
-const input = document.getElementById("search");
-const noResult = document.getElementById("noResult");
-
 input.addEventListener("input", function(){
   const val = this.value.toLowerCase();
   let found = false;
 
-  document.querySelectorAll(".rule-text").forEach(el=>{
-    const text = el.innerText;
-    el.innerHTML = text;
+  // 🔥 RESET MINDEN ELŐSZÖR
+  document.querySelectorAll(".rule").forEach(r => {
+    r.style.display = "block";
+  });
 
-    if(text.toLowerCase().includes(val) && val !== ""){
+  document.querySelectorAll(".rule-text").forEach(el=>{
+    const originalText = el.innerText;
+    el.innerHTML = originalText;
+
+    if(val === "") return;
+
+    if(originalText.toLowerCase().includes(val)){
       found = true;
 
       const regex = new RegExp(`(${val})`, "gi");
-      el.innerHTML = text.replace(regex, `<span class="highlight">$1</span>`);
+      el.innerHTML = originalText.replace(regex, `<span class="highlight">$1</span>`);
 
+      // 🔥 SZÜLŐK LENYITÁSA
       let parent = el.closest(".rule");
       while(parent){
-        parent.style.display = "block";
         parent.classList.remove("collapsed");
+
         const c = parent.querySelector(":scope > .content");
-        if(c) c.style.maxHeight = c.scrollHeight + "px";
+        if(c){
+          c.style.maxHeight = c.scrollHeight + "px";
+        }
+
         parent = parent.parentElement.closest(".rule");
       }
 
-    } else if(val !== ""){
-      el.closest(".rule").style.display = "none";
     } else {
-      el.closest(".rule").style.display = "block";
+      // 🔥 CSAK AZ ADOTT ÁGAT REJTED EL
+      el.closest(".rule").style.display = "none";
     }
   });
 
-  noResult.style.display = found || val==="" ? "none" : "block";
+  noResult.style.display = (val !== "" && !found) ? "block" : "none";
 });
 
 // ctrl+f override
