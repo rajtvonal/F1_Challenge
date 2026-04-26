@@ -30,13 +30,30 @@ body {
 /* Glow */
 .bg-glow {
   position: fixed;
-  top: -200px;
+  top: -300px;
   left: 50%;
   transform: translateX(-50%);
-  width: 800px;
-  height: 500px;
+  width: 1000px;
+  height: 700px;
   background: radial-gradient(ellipse, var(--red-glow) 0%, transparent 70%);
+  pointer-events: none;
   z-index: 0;
+  animation: glowMove 18s ease-in-out infinite alternate;
+}
+
+@keyframes glowMove {
+  0% {
+    transform: translateX(-50%) translateY(0px) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateX(-45%) translateY(40px) scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-55%) translateY(-30px) scale(0.95);
+    opacity: 0.7;
+  }
 }
 
 /* HEADER */
