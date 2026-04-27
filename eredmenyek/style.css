@@ -44,6 +44,48 @@ body.light {
   box-shadow: 0 0 12px var(--red-glow);
 }
 
+body.light .back-button,
+body.light .theme-toggle,
+button{
+  background: #e0e0e6; /* sötétebb mint a háttér */
+  border: 1px solid #ccc;
+  color: #111;
+}
+
+body.light tr:nth-child(even) {
+  background: #f0f0f5;
+}
+
+body.light tr:nth-child(odd) {
+  background: #ffffff;
+}
+
+body.light table {
+  border: 1px solid #ddd;
+}
+
+body.light td {
+  border: 1px solid #ddd;
+  color: #111;
+}
+
+th {
+  background: var(--bg-secondary);
+}
+
+body.light th {
+  background: #e4e4ea;
+}
+
+tr:hover {
+  background: rgba(219,10,64,0.08);
+}
+
+body.light tr:hover {
+  background: rgba(219,10,64,0.15);
+}
+
+
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
