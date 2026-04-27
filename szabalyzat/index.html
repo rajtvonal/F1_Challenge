@@ -215,9 +215,9 @@ body {
 
 <script>
 
-function goBack(){ window.location.href = "../index.html"; }
+function goBack(){ window.location.href = "../"; }
 
-
+// SZABÁLYZAT BETÖLTÉSE
 fetch("rules.txt")
   .then(res => res.text())
   .then(text => generateRules(text));
@@ -338,7 +338,6 @@ input.addEventListener("input", function(){
 
   noResult.style.display = found ? "none" : "block";
 });
-
 
 // Ctrl+F override
 document.addEventListener("keydown", e=>{
