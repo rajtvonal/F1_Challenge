@@ -173,7 +173,8 @@ Tisztességtelen időbüntetés eltávolítása: Ha a játék időbüntetést sz
 
 Ne feledd, hogy nem nyújtunk kompenzációt azokért a büntetésekért, amelyek a verseny során a pályán elfoglalt pozíciódat érintik. Ide tartoznak a „drive through” büntetések és a „stop-go” büntetés miatt a boxban/pitben töltött extra idő. A boxban nem letöltött „stop-go” büntetés azonban időbüntetéssé alakul át, ezért ha igazságtalanul szabták ki, eltörölhető.
 
-5.1.4 Az óvások határideje
+5.1.4
+Az óvások határideje:
 A óvásokat a versenyek után lehet benyújtani, de csak a verseny utáni hétfőn 18:00 óráig.
 A bajnokság szervezeti keretei miatt az óvások eredményének kihirdetését követően nincs lehetőség fellebbezés benyújtására.
 
