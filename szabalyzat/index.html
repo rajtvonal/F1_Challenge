@@ -119,8 +119,8 @@ body {
 
 .back-button {
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 30px;
+  left: 30px;
   padding: 10px 16px;
   background: var(--bg-secondary);
   border: 1px solid var(--border);
@@ -200,74 +200,9 @@ body {
   <input type="text" id="search" placeholder="Keresés... (Ctrl+F)">
 </div>
 
-<div class="container">
 
-  <!-- 1 -->
-  <div class="level-1">
-    <div class="level-1-title">1. Versenyszabályok</div>
-    <div class="level-text">
-      EZEK A VERSENYSZABÁLYOK
-    </div>
+<div class="container"></div>
 
-    <div class="level-2">
-      <div class="level-2-title">1.1 Tiszta versenyzés</div>
-      <div class="level-text">
-        Fontos a tiszta versenyzés
-      </div>
-
-      <div class="level-3">
-        <div class="level-3-title">1.1.1</div>
-        <div class="level-text">
-          Mindig a tiszta versenyzés a fő szempont. A pályán nem történhet ütközés az autók között...
-        </div>
-      </div>
-
-      <div class="level-3">
-        <div class="level-3-title">1.1.2</div>
-        <div class="level-text">
-          Az agresszivitásra vonatkozó szabályok tudatos megszegése kizárást vonhat maga után.
-        </div>
-      </div>
-
-    </div>
-
-    <div class="level-2">
-      <div class="level-2-title">1.2 Pályán való küzdelem</div>
-
-      <div class="level-3">
-        <div class="level-3-title">1.2.1</div>
-        <div class="level-text">
-          Ne legyél túl agresszív előzés közben. Mindkét fél felelős a tiszta versenyzésért.
-        </div>
-      </div>
-
-      <div class="level-3">
-        <div class="level-3-title">1.2.2</div>
-        <div class="level-text">
-          Ne kényszerítsd le a másik autót a pályáról.
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- 2 -->
-  <div class="level-1">
-    <div class="level-1-title">2. Pályán érvényes szabályok</div>
-
-    <div class="level-2">
-      <div class="level-2-title">2.1 Játékbeli büntetések</div>
-
-      <div class="level-text">
-        Ha úgy érzed, hogy a játék igazságtalan büntetést adott...
-      </div>
-
-    </div>
-
-  </div>
-
-</div>
 
 <div class="no-result" id="noResult">Nincs találat</div>
 
@@ -282,6 +217,84 @@ body {
 
 function goBack(){ window.location.href = "../index.html"; }
 
+
+fetch("rules.txt")
+  .then(res => res.text())
+  .then(text => generateRules(text));
+
+function generateRules(text){
+  const container = document.querySelector(".container");
+  container.innerHTML = "";
+
+  const lines = text.split("\n");
+
+  let currentL1 = null;
+  let currentL2 = null;
+  let currentL3 = null;
+
+  lines.forEach(rawLine => {
+    const line = rawLine.trim();
+    if(line === "") return;
+
+    // --- LEVEL 1 ---
+    if(/^\d+\.\s/.test(line)){
+      currentL1 = createDiv("level-1");
+      currentL1.innerHTML = `
+        <div class="level-1-title">${line}</div>
+      `;
+      container.appendChild(currentL1);
+
+      currentL2 = null;
+      currentL3 = null;
+      return;
+    }
+
+    // --- LEVEL 2 ---
+    if(/^\d+\.\d+\s/.test(line)){
+      if(!currentL1) return;
+
+      currentL2 = createDiv("level-2");
+      currentL2.innerHTML = `
+        <div class="level-2-title">${line}</div>
+      `;
+      currentL1.appendChild(currentL2);
+
+      currentL3 = null;
+      return;
+    }
+
+    // --- LEVEL 3 ---
+    if(/^\d+\.\d+\.\d+$/.test(line)){
+      if(!currentL2) return;
+
+      currentL3 = createDiv("level-3");
+      currentL3.innerHTML = `
+        <div class="level-3-title">${line}</div>
+      `;
+      currentL2.appendChild(currentL3);
+      return;
+    }
+
+    // --- SIMA SZÖVEG ---
+    const textDiv = `<div class="level-text">${line}</div>`;
+
+    if(currentL3){
+      currentL3.innerHTML += textDiv;
+    } else if(currentL2){
+      currentL2.innerHTML += textDiv;
+    } else if(currentL1){
+      currentL1.innerHTML += textDiv;
+    }
+  });
+}
+
+function createDiv(className){
+  const div = document.createElement("div");
+  div.className = className;
+  return div;
+}
+
+// SEARCH BOX
 const input = document.getElementById("search");
 const noResult = document.getElementById("noResult");
 

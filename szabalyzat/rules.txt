@@ -1,0 +1,312 @@
+1. Versenyszabályok
+1.1 Tiszta versenyzés
+1.1.1
+Mindig a tiszta versenyzés a fő szempont. A pályán nem történhet ütközés az autók között, és mint versenyzőnek mindent meg kell tenned annak érdekében, hogy ne történjen meg. Balesetek előfordulhatnak, de ha Te vagy a felelős az ütközésért, és ezt jelentik a versenybíróknak, akkor büntetést kapsz.
+1.1.2
+Az agresszivitásra vonatkozó szabályok tudatos megszegése és szándékos baleset vagy ütközés okozása a bajnokságból való kizárást vonhatja maga után.
+1.2 Pályán való küzdelem
+1.2.1
+Ne legyél túl agresszív, amikor megpróbálsz előzni. A küzdelemben mindkét versenyző felelőssége, hogy ne okozzon balesetet, így megőrizve a verseny szellemiségét.
+1.2.2
+Ne kényszerítsd le másik autót a pályáról azzal, hogy túl kevés helyet hagysz neki a kanyar bejáratánál vagy kijáratánál. Ha a másik autó veled egy vonalban halad a kanyarba való behajtáskor (a kanyar bejáratánál) vagy a kanyarból való kijáratkor, akkor módosítanod kell az íven, hogy elkerüld az ütközést és ne kényszerítsd le a másik autót a pályáról. Az autó akkor van „az oldaladon”, ha a támadó autó első tengelye eléri a védekező autó hátsó kerekét. 
+1.2.3
+A fékezési zónában nem megengedett semmilyen mozgás, ha más autók közelében vagy, mivel ez könnyen balesetet okozhat. Válassz egy ívet a fékezési zónába való behajtás előtt, és tartsd azt a kanyarodási pontig.
+1.2.4
+Egyenes szakaszokon, ha egy másik versenyző autója bármely része az autód mellett van, tiszteletben kell tartanod annak pozícióját a pályán, és kerülni kell, hogy bármilyen mozdulatot tegyél a másik autó felé.
+1.2.5
+A szlalomozás („waving”) és a blokkolás tilos. Védekezés esetén a versenyző köteles egy versenyívet választani, és azt következetesen tartani. Egyetlen irányváltás megengedett a védekezés során.
+1.2.6
+A szélárnyák megszakítása céljából végzett túlzott szlalom egyenes szakaszokon tilos, még abban az esetben is, ha a mögöttes autó fizikailag nincs közvetlen előzési pozícióban. Túlzottnak minősül a manőver, ha az elöl haladó versenyző ugyanazon az egyenes szakaszon több mint két alkalommal vált irányt.
+1.2.7
+A sárga zászló alatt tilos/nem megengedett más autót előzni a pályán. Ez alól kivételt képez az az eset, ha a másik autó sérülés miatt nagyon lassan halad, és/vagy részt vett a sárga zászlókat kiváltó balesetben. Ha egy versenyző sárga zászló alatt előz meg egy másik autót, akkor vissza kell adnia a pozícióját. Ez a szabály csak a versenyek alatt érvényes.
+1.3 Pályahatárok
+1.3.1
+A kanyarok levágása vagy a pálya meghosszabbítása előny szerzés céljából nem megengedett. Azok a versenyzők, akik folyamatosan megszegik ezt a szabályt, utólag büntetést kapnak.
+1.3.2
+Ha a védekező autó a pályáról való letéréssel vagy a kanyar levágásával képes megtartani pozícióját, akkor köteles feladni pozícióját.
+1.3.3
+Ha mind a négy kerékkel a pályán kívülről, vagy kanyar levágásának következtében előzöl meg egy másik versenyzőt, akkor lassítanod kell és vissza kell adni a pozíciót.
+1.3.4
+Ha egy versenyzőt e szabály megsértése miatt jelentik a versenybíróknak, azok saját belátásuk szerint döntik el, hogy a versenyző olyan mértékben túllépte-e a pálya határait, hogy az büntetést indokol, és ha igen, milyen típusú büntetés kiszabása helyénvaló. Ez a szabályszegés súlyosságától és gyakoriságától függ. A lényeg az, hogy ha biztosra akarsz menni, hogy nem kapsz büntetést a versenybíróktól, akkor ügyelj arra, hogy a kvalifikáció és a verseny során ne nyerj időt a pálya határainak elhagyásával.
+1.4 Kvalifikációs illemtan
+1.4.1
+A kvalifikáción a versenyző saját felelőssége, hogy a gyors kör megkezdésekor szabad helyet találjon a pályán. A gyors kört futó autó nem köteles utat adni a hátulról közeledő gyorsabb autónak. Ha azonban fel- vagy levezető körön haladsz, akkor a gyorsabb autókat el kell engedned, anélkül, hogy akadályoznád őket.
+1.4.3
+A kvalifikáció során tilos a pálya bármely szakaszát levágni vagy kihagyni, beleértve a  fel- vagy levezető köröket is. Ha ezt előny szerzésére vagy időmegtakarításra teszed, büntetéssel jár.
+1.5 Térbeli tájékozódás
+1.5.1
+Fontos, hogy tudd, hol vannak a versenytársaid körülötted, és különösen óvatosnak kell lenned.
+1.5.2
+Ha kicsúszol a pályáról, miközben más autók vannak mögötted, akkor feltétlenül várj, amíg biztonságosan vissza nem tudsz térni a pályára.
+1.5.3
+Ha kicsúszol és oldalra vagy hátra fordulsz a pályán, akkor maradj mozdulatlan, amíg az érkező autók elhaladnak. Sokkal könnyebb elkerülni egy mozdulatlan akadályt.
+2. Pályán érvényes szabályok
+2.1 Játékbeli büntetések
+Ha úgy érzed, hogy a játék igazságtalan áthajtásos vagy stop-and-go büntetést szabott ki rád, a verseny közben kérvényezheted a büntetés eltörlését a Discord szerverünkön, feltéve, hogy még nem töltötted le a büntetést, és meg tudod tenni anélkül, hogy veszélyeztetnéd a többi versenyzőt, vagy van melletted versenymérnök. Az áthajtásos („drive-through”) és stop-and-go büntetéseket azonban utólag már nem tudjuk visszavonni, ha a büntetést letöltötted, így ezek esetében kompenzáció nem jár, mivel közvetlen hatással vannak a pályán elfoglalt pozíciódra.
+2.2 Lekörözés
+2.2.1
+Ha körhátrányba kerülsz, a te felelősséged, hogy a lehető leghamarabb biztonságosan átengedd az élen haladókat, anélkül, hogy időt vesztenének.
+2.2.2
+Ha gyorsabban haladsz, mint az a kocsi, amelyik körhátrányba került, ne próbálj meg felzárkózni, kivéve, ha ez biztonságos és nem akadályozza az előtted haladó kocsit.
+2.3 Biztonsági autó irányelvek
+2.3.1
+A biztonsági autó mögött haladó mezőny vezetőjeként ne lassítsd szándékosan a mezőnyt veszélyesen alacsony sebességre, amikor a újraindítás előtt szabályozod a tempót. Ez vonatkozik arra is, ha a delta értéknél szükségtelenül lassabban haladsz, és ezzel hátráltatod a mögötted haladó autókat. Bármelyik versenyző, akiről kiderül, hogy így tesz, büntetést kap.
+2.3.2
+A biztonsági autó után történő újraindításkor tilos az előzés, amíg a játék zöld zászlót nem mutat, vagy át nem haladsz a célvonalon. Bármely versenyző, aki sárga zászló alatt előz, büntetést kap, ha nem a játékban, akkor a verseny után.
+2.3.3
+A biztonsági autó kivonulása után, az újraindítás során tilos a másik autóba (A) behajtani annak érdekében, hogy a B autó jobb rajtpozíciót szerezzen, ellenkező esetben a szabályt megszegő autóra a 5.3 pontban leírt büntetés szabható ki.
+2.4 Gumiabroncs-szabályok
+2.4.1
+Minden versenyző szabadon választhatja ki a rajtgumiabroncsát a versenyre magával hozott készletből.
+2.5 Boxkiállások
+2.5.1
+Minden versenyen kötelező legalább egy kerékcsere.
+2.5.2
+A boxkiállást legkorábban az 1. kör végén lehet végrehajtani. Ezentúl a verseny utolsó körét megelőzően, ha még nem történt volna meg, kötelező a boxkiállás. 
+Ez figyelembe veszi a körhátrány lehetőségét is. E szabály be nem tartása a versenyből való kizárást vonhajta maga után.
+2.5.3
+A boxutcába való behajtáskor és onnan való kihajtáskor az egész autónak a fehér vonalak között kell maradnia, ellenkező esetben büntetés jár, és akkor is büntetés jár, ha a boxutcát áthajtva veszélyes helyzetet okoz, vagy időt vagy pályapozíciót nyer.
+2.5.4
+A versenyzőknek minden versenyen legalább egyszer meg kell állniuk a boxutcában, hogy két különböző keveréket használjanak, kivéve, ha az időjárási körülmények ezt nem teszik szükségessé.
+2.5.6
+Ha a kvalifikáció bármely pontján vissza akarsz térni a boxba, kérjük, tedd ezt a pályán kívül, vagy manuálisan hajts be a boxba, anélkül, hogy akadályoznád a többi versenyzőt a gyors körben.
+2.7 Vezetés különböző körülmények között
+2.7.1
+Éjszakai versenyek esetén minden versenyzőnek be kell kapcsolnia a fényszóróit, hogy az autója mások számára is látható legyen, és hogy Te is jobban lássad az utat. Ha balesetben mindkét fényszóród megsérül, azonnal vissza kell térned a boxba, annak a megjavítására. Kérjük, győződj meg arról is, hogy van egy gomb, amellyel bekapcsolhatod a fényszórókat.
+2.7.2
+Esős időben kötelező bekapcsolni a fényszórókat.
+2.7.4
+Esős vagy esőre hajlamos versenyek esetén győződj meg arról, hogy van-e gombod az ablaktörlők bekapcsolásához, vagy be van-e kapcsolva az automatikus ablaktörlő funkció.
+2.8 A verseny befejezése
+2.8.1
+DNF – Azok a versenyzők, akik a verseny távjának kevesebb mint 70%-át teljesítik, a verseny eredményeiben DNF (Did Not Finish, nem ért célba) minősítéssel szerepelnek, és végső helyezésüktől függetlenül 0 pontot kapnak.
+2.8.2
+Azok a versenyzők, akik a verseny több mint 70%-át teljesítik, mielőtt véletlenül kiesnek vagy kilépnek, befejezőként kerülnek besorolásra.
+2.8.3
+DSQ – Azok a versenyzők, akiket kizárnak a versenyből – akár a játékban kapott büntetés, akár a verseny után a versenybírók által hozott döntés miatt –, DSQ (kizárt) minősítést kapnak, és az eredménylistán az összes többi versenyző mögé kerülnek.
+2.8.4
+Ha játékbeli kizárást kapsz a versenyből, és úgy érzed, hogy ez igazságtalan, küldd el a verseny teljes visszajátszását a versenybíróknak. Ha úgy véljük, hogy a kizárás indokolt volt, akkor az érvényben marad. Ha azonban úgy véljük, hogy a kizárás igazságtalan volt, vagy a játék hibájának eredménye, akkor az utolsó helyen végzett versenyzőként kerülsz besorolásra, és a pozíciódnak megfelelő teljes pontszámot kapod. Ha a célvonal átlépésekor kizárnak, akkor visszahelyezhetnek az eredeti végső pozíciódba.
+2.9 Futam közbeni szándékos kilépés
+2.9.1
+A versenyből való szándékos kilépés bármilyen módon – akár a menüből való kilépéssel, akár az autó szándékos összetörésével – nem megengedett, kivéve, ha erre nagyon jó okod van. Elfogadható ok lehet a kilépésre, ha kapcsolatproblémáid miatt veszélyt jelentesz a pályán lévő többi versenyzőre. Az, hogy „nem volt kedved” vagy valami miatt dühös voltál, nem minősül elfogadható oknak.
+2.9.2
+Az olyan kifogásokat, mint a „rossz vezetés” vagy a „kapcsolati problémák”, figyelembe vesszük, de nem mentesítenek a felelősség alól. Ha alkalmanként kevésbé megy a vezetés, az rendben van, de rendszeres gyakorlás nélkül való megjelenés miatt felülvizsgálat alá kerülsz. Nem várjuk el, hogy mindenki minden héten gyakoroljon, de elvárjuk, hogy tudd irányítani az autót és biztonságosan közlekedj a pályán. Minél többet gyakorolsz, annál versenyképesebb leszel.
+2.9.3
+Kapcsolati problémák bárkinél előfordulhatnak, de azokat a versenyzőket, akik a kapcsolati problémák miatt folyamatosan képtelenek biztonságosan versenyezni, kizárjuk a bajnokságból.
+2.9.4
+Ha többször is kilépsz a versenyből, mielőtt az befejeződött, a szervező csapatnak joga van kizárni téged a bajnokságból. Ez azt is jelentheti, hogy a következő szezonban nem fogadnak be a bajnokságba.
+2.10 Autócsere tilalma
+A versenyzők számára szigorúan tilos a bajnokság során, fordulónként autót cserélni. Minden résztvevő kizárólag a bajnokság elején általa kiválasztott járművel köteles teljesíteni az összes versenytávot, pályától függetlenül. Az esetleges autócsere megszegése automatikus versenyeltiltást von maga után az adott futamról, a versenybíróság mérlegelése nélkül.
+3. Általános viselkedés
+3.1 Közvetítés
+3.1.1
+Versenyzőként nem nézheted és nem hallgathatod a közvetítést, mert ezzel irreális előnyre tehetsz szert, ezért a verseny közbeni élő adás nézése nem megengedett! Ez vonatkozik arra az esetre is, amikor új gumikért állsz be a boxba.
+3.1.2
+Ez alól kivételt képez, ha balesetet szenvedsz és ki kell állnod a versenyből, és már nem vehetsz részt benne.
+3.2.3
+Azok a versenyzők, akik versenymérnököt alkalmaznak a versenyek során, megoszthatják a képernyőjüket, vagy a mérnökök a te POV-od helyett a streamet nézhetik, de a versenyzők, kommentátorok és FIA-tagok kivételével mások nem csatlakozhatnak a lobbyhoz. A mérnökök megnézhetik más versenyzők streamjét, a streamer felelőssége elrejteni minden olyan információt, amely előnyt jelenthet számukra. Ezentúl, amennyiben a játék (LMU) lehetőséget biztosít rá, természetesen igénybe vehetők a játék által kínált versenymérnöki funkciók.
+3.2 Chat használat
+3.2.1
+Az időmérő edzés kezdetétől a verseny végéig a versenyzők nem használhatják a játékon belüli chatfunkciót. A chat kizárólag az FIA felügyelők hivatalos kommunikációs csatornája, amelyen keresztül kizárólag a versenyzőket érintő közlemények – így például újraindításra vonatkozó információk – jelenhetnek meg. A szabály megszegése büntetést von maga után.
+3.2.2
+A szerverhez kizárólag az adott futamban induló versenyzők csatlakozhatnak. Harmadik fél belépése – még akkor is, ha rendelkezik a szükséges felhasználónévvel és jelszóval – szigorúan tilos.
+3.2.3
+Amennyiben technikai vagy szervezési probléma merül fel, azt nem a játék chatjén keresztül kell jelezni. A versenyző köteles a bajnokság hivatalos Discord csatornáján, a „Társalgó” névre hallgató felületen keresztül értesíteni a szervezőket, egy kijelölt szervező megjelölésével („pingelésével”).
+3.3 Kommunikációs etikett
+3.3.1
+A kiabálás, a becsmérlés és általában a durva beszéd nem elfogadható a közösségben. Azok a versenyzők, akik zavarják a hangulatát, megfelelő büntetést kapnak, vagy szélsőséges esetekben kizárásra kerülnek a bajnokságból.
+3.3.2
+Tiszteld a többi versenyzőt. Tartsd fenn a barátságos hangulatot, és kezelj minden versenyzőt egyenlőként, függetlenül attól, hogy gyorsabbak vagy lassabbak nálad.
+3.3.3
+Tiszteld a koordinátorokat és a versenybírókat. Figyelj a szervezőkre, ha üzenetet adnak, és fogadd el a döntéseiket. Ha úgy érzed, hogy valamelyik cselekedet/döntés helytelen, nyugodtan és éretten hozd fel a kérdést.
+Ne legyél tiszteletlen a versenybírókkal szemben, és ne gúnyolódj rajtuk nyilvánosan. Érthető, ha csalódott vagy a versenybírói döntése miatt, de nem kell tiszteletlennek lenned.
+3.4 Verseny etikett
+3.4.1
+Ha pályán balesetbe keveredsz, ne reagálj túlzottan. Lehet, hogy frusztráló, de nyugodtnak kell maradnod és tovább kell haladnod. Ha egy másik versenyző hibája vagy meggondolatlansága miatt veszítesz, az nem indokolja a megtorlást vagy a szabályok megszegését.
+
+3.4.2
+Bármilyen jellegű bosszúálló vagy szándékosan kárt okozó magatartás szigorúan tilos. Az ilyen cselekedetek a legsúlyosabb sportszerűtlenségnek minősülnek, és a körülmények súlyosságától függően akár a bajnokságból való azonnali kizárást is maguk után vonhatják.
+3.4.3
+Ha egy másik versenyző szerinted szabálytalanul viselkedik, jelentsd azt a verseny után a versenybírói testületnek, ahelyett, hogy a verseny után a hangcsevegésben vagy a Discordon vitatkoznál róla.
+3.4.4
+Ha rosszul megy a verseny, ne viselkedj ostobán. Versenyzőként el kell fogadnod, hogy egyes versenyek jobbak lesznek, mint mások, és nem mindig lehet minden a kedved szerint alakulni. Ha nem tudod élvezni a versenyt, mert nem mindig vagy az élen, akkor ez nem a neked való hely – sok versenyző van a bajnokságban, és valakinek mindig a hátsó helyeken kell lennie.
+3.4.5
+Várj, amíg mindenki befejezi a szekciót, mind a kvalifikációt, mind a versenyt, mielőtt a Discordon vagy a játékon belüli csevegőn megbeszélnéd a versenyt.
+3.4.6
+A hűtőkör a verseny esemény része, ezért ugyanazok a szabályok vonatkoznak rá. A hűtőkörben és a verseny eseményének bármely más szakaszában tilos egymásnak ütközni.
+3.4.7
+Büntetést kapnak azok a versenyzők, akik szándékosan eltávolítják a fékezést jelzőtáblákat és más, referenciapontként használható jelzéseket.
+4. Részvétel
+4.1 Egyéni bajnokság
+A versenyzők a futamok során elért eredményeik alapján a „6. Pontrendszer” pontjai szerint kapnak pontokat.
+Ennek a díjazásáról " 8. Nyeremények" paragrafusban lehet olvasni.
+4.2 Csapatok részvétele a bajnokságban
+4.2.1 A Rajtvonal Sim Masters sorozatában egy csapaton belül eltérő márkájú autók használata engedélyezett. Egy adott versenyző kizárólag egy márkájú autóval versenyezhet a sorozat során, és a futamok között az autó módosítása nem engedélyezett.
+Egy csapat létszáma két fő, ennél nagyobb számú résztvevő esetén a versenyzőknek külön csapatot kell létrehoznia.
+4.2.2 Amennyiben egy csapat nem kíván több csapatot indítani, a „4.4 Tartalékos versenyzők” pontban foglaltak szerint kétszer alkalmazhatnak tartalékos versenyzőket. Viszont minden esetben kötelező értesíteni a bajnokság szervezőit a versenyző módosításról.
+4.2.3 Az egyéni bajnokság résztvevőinek a pontjai a „6. Pontrendszer” alapján bele fognak számítani a a csapatbajnokságba, amennyiben az adott csapatban részt vesznek. Ennek a díjazásáról „8. Nyeremények” paragrafusban lehet olvasni.
+4.2.4 A csapatbajnokságban való részvétel nem kötelező, de minimum és maximum is két főtől számolható el egy csapat. Amennyiben egy versenyző nem talál csapatot, más játékosokkal köztes megállapodás alapján alkothat csapatot, vagy egyénileg is részt vehet a versenyen. Egyéni részvétel esetén a versenyző nem minősül csapatnak, így pontjai nem kerülnek beszámításra a csapatbajnokság során. A bajnokság összlétszáma 34 főben került meghatározásra, ezért a résztvevők páros számú csapatokban versenyeznek. Ennek megfelelően maximum 17 csapat indítható a szezon során.
+4.3 Rajtvonal Overtake Cup
+Minden versenyen az öt legjobb játékost pontozzuk, akik a rajthelyezésük és a célba érkezésük közötti legnagyobb előrelépést érték el. Ennek a díjazásáról „7. Nyeremények” paragrafusban lehet olvasni.
+4.4 Autófestés (livery) használata
+A versenyzők és csapatok az autók festésének (livery) használatára jogosultak, amennyiben rendelkeznek RaceControl Pro vagy Pro+ előfizetéssel.
+4.5 Tartalékos versenyzők
+A Rajtvonal Sim Masters első szezonjában a versenyzők csapatokba történő beosztása a jelentkezés sorrendje alapján történik. Azok a versenyzők, akiknek nem jut hely a 34 főt meghaladó jelentkezések esetén, tartalék státuszba kerülnek.
+A tartalékos versenyzők abban az esetben vehetnek részt a futamon, ha valamely állandó, fő versenyző nem tud megjelenni, és az adott egyéni versenyző vagy csapat elfogadja a tartalék versenyzőt.
+A bonyodalmak elkerülése érdekében javasolt minden csapatnál egy-egy tartalékos versenyző alkalmazása. A tartalékos versenyző legfeljebb kétszer alkalmazható, mivel minden versenyző a bajnokságban csak egyszer vonulhat vissza („withdraw”) a sorozat versenyeiről a megkezdésük előtt. Amennyiben egy csapat és a tartalékos versenyző megállapodásra jut, a tartalékos a csapat tagjaival felváltva vezethet egy autót, azonban minden esetben kötelező értesíteni a bajnokság szervezőit a versenyző módosításáról.
+Kötelező rendelkezés: A verseny megkezdése előtt a résztvevő versenyző a SimGriden keresztül, legkésőbb két órával a futam előtt köteles lemondani a részvételét, és egyúttal meghatározni a tartalékos versenyzőt, aki párhuzamosan a verseny szervezők felé is bejelentésre kerül.
+4.6 Hiányzás a versenyről
+4.6.1
+Ha nem tudsz részt venni egy versenyen, akkor kapcsolatba kell lépned az egyik szervezővel, elmondani neki, hogy mely futamot érinti a távolléted.
+Amikor a szervezőt tájékoztatod a távollétedről, megfelelő indokot kell megadnod arra, hogy miért nem tudsz részt venni. Nem fogadható el, ha azért nem jelenik meg egy versenyen, mert nem tetszik a pálya, mert „nincs kedve”, vagy más hasonló okok miatt, és a bajnokságban elfoglalt helyét azonnal felülvizsgáljuk. Ha a társasági életed/munkád/iskolád több időt vesz igénybe, mint vártad, akkor fontolóra vehetjük, hogy tartalékos szerepet kapsz. Végül úgy is dönthetünk, hogy a legjobb, ha teljesen kilépsz a bajnokságból. A versenyzők a regisztráció során vállalták, hogy rendszeresen részt vesznek a versenyeken.
+4.6.2
+Fő versenyzőként legalább 120 perccel a verseny előtt informálnod kell a szervezőket, ha nem tudsz részt venni. Ezzel elegendő időt biztosítasz, hogy felvegyék a kapcsolatot a tartalék versenyzőkkel, akik így még gyakorolhatnak is.
+4.6.3
+Ha egy versenyző kettő versenyen keresztül nem jelenik meg, és ez nem változik, akkor a versenyzőt a teljes idejű versenyzői pozíciótól megfosztjuk, és a tartaléklistára helyezzük.
+4.6.4
+Tilos más versenyző a nevében versenyezni, és ez súlyos büntetéssel jár.
+4.7 Kapcsolat és lagg
+ Az online versenyzés egyik sajnálatos aspektusa, hogy a stabil kapcsolat kritikus fontosságú lehet ahhoz, hogy más autókhoz közel tudjunk versenyezni. Bár tisztában vagyunk azzal, hogy nem mindenki rendelkezik tökéletes kapcsolattal, és hogy az alkalmi késleltetés elkerülhetetlen, fenntartjuk a jogot, hogy megkérjük a versenyzőt, hogy lépjen ki a bajnokságból, ha kapcsolata túl sok problémát okoz más versenyzőknek. A szervezők fenntartják a jogot, hogy a verseny során kizárjanak egy versenyzőt, ha az internetkapcsolata komoly veszélyt jelent a pályán lévő többi autóra.
+4.8 A verseny feladása és a sérült járművek kezelése
+4.8.1
+A szervezők határozottan ellenzik a szándékos versenyfeladásokat, mivel cél, hogy minden versenyző a lehetőségeihez mérten befejezze a futamot. Ugyanakkor elismerjük, hogy előfordulhatnak olyan helyzetek, amikor a verseny hátralévő idejének teljesítése értelmetlen, vagy a körözés szükségtelen. Amennyiben egy versenyző bármilyen okból vissza kíván lépni, köteles járművét a boxutcába visszavezetni, és ott jelezni a verseny feladását. Ez elengedhetetlen a szoftverhibák és egyéb rendellenességek elkerülése érdekében.
+4.8.2
+Amennyiben a jármű olyan mértékben sérül, hogy a 4.2.1. pontban meghatározottak szerint nem lehetséges a boxutcába történő biztonságos visszatérés, a versenyző köteles a baleset oldalán található legközelebbi pályakijáratnál félreállni, és ott biztonságosan feladni a futamot, vagy a menü használatával visszatérni a boxutcába, oly módon, hogy ez semmiképpen ne veszélyeztesse a mögöttes forgalmat.
+Szabályszegésnek minősül, és szankciót von maga után, ha a versenyző sérült járművét a bal oldali kavicságyról a jobb oldali kijáratig (vagy fordítva) keresztben a pályán próbálja átvontatni, mivel ez a 5.3. pontban meghatározott „veszélyes visszatérés” eseteivel egyenértékű.
+Amennyiben az adott oldalon nem található kijárat, a versenyző köteles a pályán maradva a legközelebbi megnyitásig haladni, szintén az adott oldalon maradva, miközben egyértelmű jelzéssel – lassú tempóval, részben a pályán maradva – tudatja, hogy sérült járművel közlekedik.
+4.8.3
+Ha a baleset következtében a jármű a versenyívre kerül, a versenyző köteles haladéktalanul a forgalom szempontjából legbiztonságosabb, kevésbé terhelt ívre letérni.
+4.8.4
+A versenyző teljes mértékben felelősséggel tartozik járművének irányításáért és viselkedéséért, függetlenül attól, hogy a versenyben aktívan részt vesz, vagy éppen annak feladásáról dönt.
+4.9 Lecsatlakozási útmutató
+4.9.1
+Az LMU bármikor lehetővé teszi, hogy újra csatlakozhasson a munkamenethez. Arra biztatunk, hogy csatlakozz újra a munkamenethez, hogy továbbra is pontot szerezhess a bajnokságban.
+4.9.2
+Az időmérő kvalifikációs ülés vagy a verseny során, ha egy versenyen a versenyzők fele (vagy több) egyszerre vagy rövid időn belül elveszíti a kapcsolatot a szerverrel, az tömeges kapcsolatmegszakításnak számít.
+- Ha a tömeges megszakítás idején a verseny kevesebb mint 50%-a volt befejezve, a futamot a lehető leghamarabb újra kell indítani.
+- Amennyiben a tömeges megszakítás időpontjáig a verseny több mint 50%-a teljesült, a verseny addigi eredményei alapján fél pontok kerülnek kiosztásra.
+- Ha a tömeges megszakítás a kvalifikációs szakasz alatt történik, a szakaszt újra kell kezdeni.
+4.9.3
+Sajnos néha a technológia, amely lehetővé teszi számunkra a versenyzést, ellenünk fordul. Ez azt jelenti, hogy előfordulhat, hogy el kell halasztanunk vagy törölnünk kell egy versenyt. Ha ezt tesszük, akkor azért tesszük, mert úgy érezzük, hogy ez a legigazságosabb megoldás mindenki számára.
+A következő okok miatt halaszthatunk el vagy törölhetünk egy versenyt:
+- Szerver- és kapcsolati problémák: Amennyiben a versenyzők tömegesen kiesnek a verseny 50%-ának teljesítése előtt, és nem biztosítható, hogy minden résztvevő a szerveren maradjon, a versenyt inkább elhalasztjuk, elkerülve a túl kisméretű rajtrács kialakulását.
+- Tömeges lekapcsolódás: Lásd fentebb.
+4.10 Verseny újraindítás
+4.10.1
+Ha a verseny első körében több autó is érintett egy súlyos balesetben, vagy általános problémák adódnak a szerverrel, az FIA felügyelők a saját belátásuk szerint dönthet(nek) a futam újraindításáról. Versenyhétenként csak egy újraindítás lehetséges.
+4.10.2
+Az újraindítás előtt bekövetkezett balesetek továbbra is jelentendők, és – ha jelentik őket – a versenybírók általában megvizsgálják őket.
+5. Szabályok betartatása
+Lehetetlen minden versenyzőnek minden cselekedetét ellenőrizni, de rendelkezünk eszközökkel a szabályokat megszegő versenyzők szankcionálására.
+5.1 Verseny felügyelet és a versenyirányítás
+5.1.1
+A versenyek valósághűségének és igazságosságának biztosítása érdekében valós időben működő FIA-felügyelői testület kíséri figyelemmel az eseményeket.
+5.1.2
+A felügyelők minden vizsgálat megindításáról tájékoztatják az érintett versenyzőket az LMU chatfelületén keresztül.
+5.1.3
+Amennyiben egy vizsgálat lezárult, és az adott eset büntetést von maga után, a döntést a RaceControl rendszeren keresztül hajtják végre. A felügyelők ítéletüket a szabálykönyv rendelkezései, valamint a rendelkezésre álló bizonyítékok alapján hozzák meg. Ezek a bizonyítékok magukban foglalhatják a közvetítés felvételeit, az in-game steward által a szerveren készített megfigyeléseket, illetve a versenymérnök által benyújtott hivatalos óvásokat is.
+5.1.4
+A felügyelők minden esetben közzéteszik a döntést a hivatalos chaten, amely tartalmazza a büntetett versenyző nevét, a büntetés okát és annak mértékét. Amennyiben a vizsgálat nem vezet szankcióhoz, a döntés ténye ugyanúgy kiírásra kerül.
+5.1.5
+Ha a rendelkezésre álló bizonyítékok alapján nem lehetséges megalapozott döntést hozni, a felügyelők jogosultak az ügyet a verseny lezárulta után további vizsgálatra áttenni.
+5.1.6
+A versenymérnökök a futam során is benyújthatnak „GyorsÓvást” az „Óvás” nevű Discord csatornán keresztül az ott megadottnak megfelelő módon, viszont csakis a verseny ideje alatt, amelyhez kötelesek az adott esetről rendelkezésre álló bizonyítékokat csatolni.
+5.1.7
+A verseny során kiszabott büntetések fellebbezésére nincs lehetőség, mivel azok közvetlenül befolyásolják az aktuális versenyhelyzetet és a pozíciókat.
+5.2 Óvások
+A „Óvás” csatorna használható a verseny után történt incidensek és egyéb szabályszegések bejelentésére, az incidensekkel kapcsolatos hasznos bizonyítékok megadásával.
+Az incidens kivizsgálásához megfelelő magyarázatot és/vagy bizonyítékot kell benyújtani, és minden incidenshez külön tiltakozási jegyet kell nyitni.
+A következő incidensek esetén lehet tiltakozni:
+5.2.1
+Pályán történt incidensek: Ha úgy érzed, hogy egy másik versenyző okozott incidenst – pl. nekiment az autódnak, lekényszerítette a pályáról, nem biztonságosan tért vissza a pályára, vagy általában túl agresszíven vezetett.
+5.2.2
+Pályahatárok: Ha tanúja vagy annak, hogy egy másik versenyző a pályahatárok visszaélésszerű kihasználásával folyamatosan időt nyer.
+5.2.3
+Tisztességtelen időbüntetés eltávolítása: Ha a játék időbüntetést szab rád, és úgy érzed, hogy az tisztességtelen, kérvényezheted a büntetés eltávolítását. A kérvény benyújtásakor be kell mutatnod a büntetés kiszabásának bizonyítékát. Ez lehet videofelvétel vagy a verseny utáni eredménytábláról készült kép, amelyen látható, miért szabták ki a büntetést és mikor. Az ilyen bizonyíték nélkül benyújtott fellebbezéseket elutasítjuk.
+Ne feledd, hogy nem nyújtunk kompenzációt azokért a büntetésekért, amelyek a verseny során a pályán elfoglalt pozíciódat érintik. Ide tartoznak a „drive through” büntetések és a „stop-go” büntetés miatt a boxban/pitben töltött extra idő. A boxban nem letöltött „stop-go” büntetés azonban időbüntetéssé alakul át, ezért ha igazságtalanul szabták ki, eltörölhető.
+5.2.4
+A verseny utáni óvásokat kizárólag a futamot követő hétfőn 18:00 óráig lehet benyújtani. A bajnokság szervezeti és lebonyolítási keretei miatt az óvások elbírálásáról született döntések véglegesek; azok kihirdetését követően fellebbezés benyújtására nincs lehetőség.
+5.2.5
+A versenyzőknek minden esetben szigorúan be kell tartaniuk a játékban megjelenő utasításokat. A játék által kiszabott áthajtási büntetések nem kerülnek visszavonásra.
+5.2 Büntetések
+5.2.1
+A versenybírók különböző büntetéseket alkalmazhatnak a verseny szabályait megszegő versenyzőkkel szemben, a szabályszegés súlyosságától függően.
+A versenybírók döntéseik meghozatalában teljes mértékben pártatlanok, és az adott ügyben érintett személyeket a döntéshozatali folyamatból kizárják.
+5.2.2
+A versenyzők úgynevezett kvalifikációs eltiltást is kaphatnak, ami azt jelenti, hogy a következő versenyen vagy versenyeken indulhatnak, de nem vehetnek részt az időmérőn.
+5.2.3
+A kiszabott büntetéseket utólagosan a versenyidőhöz adjuk hozzá.
+5.2.4
+Amennyiben 12 büntetőpontot gyűjtesz, egy versenyre szóló eltiltásban részesülsz. Az eltiltás letöltését követően folytathatod a versenyzést a következő futamokon, azonban ha ezt követően további 2 büntetőpontot szerzel, a szezon hátralévő részére véglegesen kizárásra kerülsz, és neved felkerül a feketelistára.
+5.2.5
+Ha megállapítjuk, hogy valaki teljesen ellentétes a bajnokság szabályaival és szellemiségével, akkor a fenti büntetések mellett közvetlenül kizárhatjuk a versenyből, vagy akár az egész sorozatból.
+5.3.1 Élő versenybírói tevékenység – Büntetések és büntetőpontok rendszere
+Az élő versenybírói tevékenység során alkalmazható versenybüntetések és büntetőpontok a következők (a büntetések nem vihetők át a következő versenyre.):
+Áthajtásos büntetés (Drive-Through) és/vagy 1 büntetőpont – Veszélyes vezetés, sportszerűtlen vezetés, a kék zászló figyelmen kívül hagyása vagy kisebb, elkerülhető ütközés okozása.
+10 másodperces Stop-and-Go büntetés és/vagy 2 büntetőpont  – Közepes, elkerülhető ütközés okozása.
+30 másodperces Stop-and-Go büntetés és/vagy 3 büntetőpont – Jelentős elkerülhető ütközés okozása.
+60 másodperces Stop-and-Go büntetés és/vagy 4 büntetőpont – Súlyos elkerülhető ütközés okozása.
+Kizárás (Disqualification - DQ) és/vagy 6 büntetőpont – Súlyos, szándékos ütközés (másik autóba), a biztonsági szabályok szándékos, súlyos megsértése, technikai szabálytalanság.
+Ebben a bajnokságban nem alkalmazunk súlybéli büntetéseket, így a versenyzőknek emiatt nem kell aggódniuk.
+Fontos megjegyezni, hogy az élőben kiosztott büntetésekről a versenybírák alapos vizsgálatot követően döntenek. Amennyiben a rendelkezésre álló bizonyítékok hiányában a vizsgálat nem folytatható le az esemény ideje alatt, a versenybírák kötelesek azt a versenyt követően lefolytatni. Minden vizsgálat megkezdéséről és befejezéséről a versenyfelügyelők a játék felületén keresztül tájékoztatják a versenyzőket.
+5.4.1 Utólagos büntetőpont-rendszer
+Az utólagos büntetőpont-rendszer egy módszer arra, hogy nyomon kövessük, milyen gyakran és milyen súlyosan szegik meg a versenyzők a szabályokat, és hogy a visszaesőket szigorúbban büntessük.
+A büntetőpontok a normál versenybüntetések mellett kerülnek alkalmazásra, az alábbiak szerint:
+20 másodperces időbüntetés és/vagy 1 büntetőpont – A kék zászló figyelmen kívül hagyása.
+5-10 másodperces időbüntetés és/vagy 1 büntetőpont – A pálya határainak folyamatos túllépése.
+25 másodperces időbüntetés és/vagy 1 büntetőpont – Veszélyes vezetés, sportszerűtlen magatartás.
+10 másodperces időbüntetés és/vagy 1 büntetőpont – Előzés biztonsági autós (SC) avagy teljes pályás sárga (FCY) fázis alatt.
+20 másodperces időbüntetés és/vagy 2 büntetőpont – Szándékos ütközéssel biztonsági autó fázis okozása.
+Kvalifikációs eltiltás (QEX – Qualifying Exclusion) – rendkívül súlyos esetben a versenyző kvalifikációs eltiltásban részesülhet. Ez azt jelenti, hogy a következő versenyen nem vehet részt az időmérő edzésen, és az időmérő teljes ideje alatt a garázsban kell tartózkodnia.
+Kizárás és/vagy 6 büntetőpont – Szándékos ütközés egy másik versenyzővel.
+5.5.1 Feketelista
+A feketelista azon versenyzők nevét tartalmazza, akiket kizártak a bajnokságból – akár a versenybírói testület által összegyűjtött 12 büntetőpont elérése, akár a versenyeken való rendszeres részvétel elmulasztása miatt. Szerepelnek rajta továbbá azok a versenyzők is, akik érvényes indok nélkül hagyták el a bajnokságot a szezon során. Amennyiben a neved felkerül a feketelistára, az általában azt jelenti, hogy a jelenlegi, valamint a következő szezonban sem vehetsz részt a bajnokságban.
+5.3 A bírók döntései a versenyek során
+Annak érdekében, hogy a versenyek során a szabályok megfelelően és tisztességesen legyenek érvényesítve, a szervezők a valódi FIA-hoz hasonló bírói rendszert hoztak létre a versenyek megfelelő lebonyolításának biztosítása érdekében.
+6. Pontrendszer
+A szezon minden versenyén a következő pontskála alapján kapják a versenyzők a pontokat:
+6.1 Egyéni bajnokság pontrendszere:
+1.  = 23 pont
+2. =  18 pont
+3. =  14 pont
+4.  =  11 pont
+5.  =  8 pont
+6.  =  6 pont
+7.  =  4 pont
+8.  =  3 pont
+9.  =  2 pont
+10. =  2 pont
+11. =  1 pont
+12. =  1 pont
+13-34. = 0 pont
+6. 2 Rajtvonal Overtake Cup pontrendszer:
+Minden versenyen az öt legjobb játékost pontozzuk, akik a rajthelyezésük és a célba érkezésük közötti legnagyobb előrelépést érték el. Valamint a leggyorsabb kört szerző versenyzőt is pontozzuk. A Rajtvonal Overtake Cup pontjai nem számítanak sem az egyéni, sem a csapatbajnokság összesítésébe, mivel a „8. Nyeremények” paragrafusban külön díjazásban részesülnek. A bajnokságra nem szükséges külön jelentkezés; automatikusan részt vesz minden versenyző.
+1.  = 10 pont
+2. =  8 pont
+3. =  6 pont
+4.  =  4 pont
+5.  =  2 pont
+Gyors kör = 1 pont
+7. Rajtvonal kvíz
+7.1 Részvétel és pontszerzés
+A Rajtvonal Sim Masters közvetítései során a nézők számára futamonként négy kérdés kerül feltevésre a közvetítés során, és a chat felületén keresztül is. A kérdések megválaszolására rövid időtartam áll rendelkezésre, és csak a helyesen válaszoló nézők kapnak pontot.
+7.2 Szezon végi díjazás
+A szezon végén a legtöbb pontot szerző néző nyereményként egy Rajtvonal márkájú terméket kap.
+7.3 Általános rendelkezések
+A nézői pontversenyben való részvétel nyilvános és minden néző számára elérhető.
+A pontok nem átruházhatók, és kizárólag a közvetítés során leadott, helyes válaszok alapján kerülnek jóváírásra.
+A szervezők fenntartják a jogot a pontozás érvényesítésére és vitás esetek eldöntésére.
+3. Nyeremények
+A Rajtvonal Sim Masters sorozat résztvevői a szezon végén az alábbi nem pénzbeli juttatásokban részesülnek, a DRX Sport jóvoltából:
+1. helyezett: 3 kör élményvezetés a DRX Ringen egy Ferrari F8 Tributo járművel (értéke: 89.900 Ft) + kupa a Rajtvonal Magazin részéről
+2. helyezett: 3 kör élményvezetés a DRX Ringen egy Porsche 911 GTS járművel (értéke: 64.900 Ft) + kupa a Rajtvonal Magazin részéről
+3. helyezett: 3 kör élményvezetés a DRX Ringen egy Ford Mustang Shelby GT 350 járművel, (értéke: 64.900 Ft) + kupa a Rajtvonal Magazin részéről
+A Rajtvonal Magazin támogatásával további jutalmak is átadásra kerülnek:
+Kupa a csapatbajnokságban első helyezett csapatnak,
+Érem a Rajtvonal Overtake Cup legtöbb előzést szerző játékosának,
+Rajtvonal márkájú termék a nézői kvíz bajnokság legtöbb pontot szerző játékosának.
+Az átadás lebonyolításáról a DRX Sport és a Rajtvonal Sim Masters szervezői gondoskodnak, a játékosok a szervezők iránymutatása szerint kötelesek eljárni.
+ 
+Módosítva: 2025.10.22.
+A szervezők
+
