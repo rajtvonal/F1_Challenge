@@ -62,9 +62,7 @@ function renderTable(d){
  });
 }
 
-function goBack(){
-  window.location.href = "../";
-}
+function goBack(){ window.location.href = "../"; }
 
 window.onload=()=>{
  loadData('f1challenge.csv',document.getElementById("defaultBtn"));
