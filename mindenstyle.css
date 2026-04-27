@@ -1,0 +1,335 @@
+/* =========================
+   VARIABLES (GLOBAL THEME)
+========================= */
+:root {
+  --bg-primary: #0a0a12;
+  --bg-secondary: #10101e;
+  --bg-row: #12122a;
+  --bg-row-alt: #0e0e22;
+
+  --red: #db0a40;
+  --red-glow: rgba(219,10,64,0.3);
+  --yellow: #ffc906;
+
+  --text-primary: #f0f0f5;
+  --text-secondary: #8888aa;
+
+  --border: #1e1e3a;
+}
+
+/* LIGHT MODE */
+body.light {
+  --bg-primary: #f5f5f7;
+  --bg-secondary: #ffffff;
+  --text-primary: #111;
+  --text-secondary: #555;
+  --border: #ddd;
+  --red-glow: rgba(219,10,64,0.2);
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* =========================
+   BACKGROUND GLOW
+========================= */
+.bg-glow {
+  position: fixed;
+  top: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 600px;
+  background: radial-gradient(ellipse, var(--red-glow) 0%, transparent 70%);
+  z-index: 0;
+}
+
+/* opcionális animáció */
+.bg-glow.animate {
+  animation: glowMove 18s ease-in-out infinite alternate;
+}
+
+@keyframes glowMove {
+  0% { transform: translateX(-50%) translateY(0); opacity: 0.6; }
+  100% { transform: translateX(-55%) translateY(-40px); opacity: 1; }
+}
+
+/* =========================
+   HEADER
+========================= */
+.header {
+  text-align: center;
+  padding: 70px 20px 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: var(--red);
+  text-transform: uppercase;
+}
+
+.title span {
+  color: var(--text-primary);
+  text-shadow: 0 0 40px var(--red-glow);
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  color: var(--text-secondary);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.buttons {
+  margin-top: 30px;
+}
+
+button {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  border-color: var(--red);
+}
+
+button.active {
+  background: var(--red);
+  border-color: var(--red);
+}
+
+/* =========================
+   LAYOUT
+========================= */
+.wrapper,
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+/* =========================
+   TABLE
+========================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+}
+
+th {
+  background: var(--bg-primary);
+  padding: 12px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  border-bottom: 2px solid var(--red);
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+tr:nth-child(even) {
+  background: var(--bg-row-alt);
+}
+
+tr:hover {
+  background: rgba(219,10,64,0.08);
+}
+
+/* TOP 3 kiemelés */
+tr.top1 {
+  background: rgba(255,215,0,0.08);
+  border-left: 3px solid gold;
+}
+
+tr.top2 {
+  background: rgba(192,192,192,0.08);
+  border-left: 3px solid silver;
+}
+
+tr.top3 {
+  background: rgba(205,127,50,0.08);
+  border-left: 3px solid #cd7f32;
+}
+
+/* =========================
+   TEXT / COLORS
+========================= */
+.rank-1 { color: gold; font-weight: 900; }
+.rank-2 { color: silver; }
+.rank-3 { color: #cd7f32; }
+
+.name {
+  text-align: left;
+  font-weight: 700;
+}
+
+.time {
+  color: var(--text-secondary);
+}
+
+.total {
+  color: var(--yellow);
+  font-weight: 700;
+}
+
+.delta {
+  color: var(--red);
+  font-size: 11px;
+}
+
+/* =========================
+   RULE PAGE (hierarchy)
+========================= */
+.level-1 { margin-top: 40px; }
+.level-2 { margin-left: 20px; margin-top: 20px; }
+.level-3 { margin-left: 40px; margin-top: 15px; }
+
+.level-1-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--red);
+}
+
+.level-2-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.level-3-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.level-text {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #cfcfe8;
+}
+
+/* =========================
+   SEARCH
+========================= */
+.search-box {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.search-box input {
+  width: 300px;
+  padding: 10px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  border-radius: 6px;
+}
+
+.highlight {
+  background: rgba(219,10,64,0.25);
+  border-radius: 4px;
+  padding: 1px 3px;
+}
+
+.no-result {
+  text-align: center;
+  color: var(--red);
+  font-size: 1.5rem;
+  margin-top: 20px;
+  display: none;
+}
+
+/* =========================
+   NAV BUTTONS
+========================= */
+.back-button,
+.theme-toggle {
+  position: fixed;
+  top: 30px;
+  padding: 10px 14px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 999;
+  transition: 0.2s;
+}
+
+.back-button { left: 30px; }
+.theme-toggle { right: 30px; }
+
+.back-button:hover,
+.theme-toggle:hover {
+  color: var(--red);
+  border-color: var(--red);
+  box-shadow: 0 0 12px var(--red-glow);
+}
+
+.back-button:active {
+  transform: scale(0.95);
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.row {
+  animation: fadeUp 0.3s ease forwards;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.3s;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.2s;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
