@@ -118,10 +118,10 @@ Versenyzőként nem nézheted és nem hallgathatod a közvetítést, mert ezzel 
 3.1.2
 Ez alól kivételt képez, ha balesetet szenvedsz és ki kell állnod a versenyből, vagy kiesel a versenyből és már nem vehetsz részt benne.
 
-3.2.3
+3.1.3
 Azok a versenyzők, akik versenymérnököt alkalmaznak a versenyek során, megoszthatják a képernyőjüket, vagy a mérnökök a te POV-od helyett a streamet nézhetik, de a versenyzők, kommentátorok és FIA-tagok kivételével mások nem csatlakozhatnak a lobbyhoz. A mérnökök megnézhetik más versenyzők streamjét, a streamer felelőssége elrejteni minden olyan információt, amely előnyt jelenthet számukra.
 
-3.3 Lobbietikett
+3.2 Lobbietikett
 Csak a szervező indíthatja el a lobbyt, folytathatja a versenyt és indíthatja el a versenyt. Kérjük, hogy normál versenyzőként ne nyomd meg a gombot, amely elindítja az időzítőt. Ezzel biztosítható, hogy minden versenyző jelen legyen, és hogy az eredményekről minden szükséges képernyőképet elkészíthessenek.
 
 4. Részvétel
@@ -143,12 +143,12 @@ Határozottan ellenezzük a szándékos visszalépéseket, mivel szeretnénk, ha
 4.2.2
 A versenyző teljes felelősséggel tartozik autójának viselkedéséért, még akkor is, ha kilép a versenyből/visszalép az autóval. Ha az AI balesetet okoz vagy biztonsági autót vonultat fel, figyelmeztetést kap.
 
-4.3.1 Csapatválasztás
+4.3 Csapatválasztás
 A csapatválasztás a szezon elején, az előkvalifikáció szakasz befejezése után történik, amikor a legjobb 20 versenyzőnek lehetősége van kiválasztani a csapatát, így a szervezők a legjobb időeredményük sorrendjében megkérdezik a tartalékversenyzőket, hogy melyik csapat tartalékversenyzője szeretnének lenni.
 
 Ezért a hivatalos tartalékosok kiválasztása után lesz egy lista azokról a tartalékos versenyzőkről, akik a határidő után jelentkeztek. Ők már nem tartoznak a szabály hatálya alá, miszerint az időeredményük alapján kerülnek be a csapatba, így ha az első 5 időeredményt érik el, akkor is a tartalékosok sorrendjének végén indulnak.
 
-4.3.4 Tartalék versenyzők száma
+4.4 Tartalék versenyzők száma
 A szezon során csak korlátozott számú tartalék versenyző vehet részt az összes csapatban, maximum 2 tartalék versenyző csapatonként. Ez lehetővé teszi, hogy a szezon során összesen 60 versenyző vegyen részt a mezőnyben.
 
 5. Szabályok betartatása
