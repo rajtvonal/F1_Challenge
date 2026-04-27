@@ -3,6 +3,36 @@ let currentData = [];
 
 function goBack(){ window.location.href = "../"; }
 
+const toggleBtn = document.querySelector(".theme-toggle");
+
+// BETÖLTÉS
+(function initTheme(){
+  const saved = localStorage.getItem("theme");
+
+  if(saved === "light"){
+    document.body.classList.add("light");
+    toggleBtn.textContent = "☀️";
+  } else {
+    toggleBtn.textContent = "🌙";
+  }
+})();
+
+// TOGGLE
+function toggleTheme(){
+  document.body.classList.toggle("light");
+
+  const isLight = document.body.classList.contains("light");
+
+  if(isLight){
+    localStorage.setItem("theme", "light");
+    toggleBtn.textContent = "☀️";
+  } else {
+    localStorage.setItem("theme", "dark");
+    toggleBtn.textContent = "🌙";
+  }
+}
+
+
 function setActive(btn){
  document.querySelectorAll("button").forEach(b=>b.classList.remove("active"));
  btn.classList.add("active");
