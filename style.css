@@ -5,6 +5,7 @@
   /* BACKGROUND */
   --bg-primary: #0a0a12;
   --bg-secondary: #10101e;
+  --bg-hover: #1a1a3a;
   --bg-row-even: #0e0e22;
   --bg-row-odd: #12122a;
 
@@ -43,7 +44,8 @@
 body.light {
   /* BACKGROUND */
   --bg-primary: #f5f5f7;
-  --bg-secondary: #ffffff;
+  --bg-secondary: #f0f0f0;
+  --bg-hover: #ffffff;
   --bg-row-even: #f0f0f5;
   --bg-row-odd: #ffffff;
 
@@ -116,7 +118,7 @@ body {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 900;
   letter-spacing: 0.05em;
   color: var(--color-accent);
@@ -157,6 +159,7 @@ button {
 
 button:hover {
   border-color: var(--color-accent);
+  background: var(--bg-hover);
 }
 
 button.active {
@@ -176,6 +179,41 @@ button.active {
   position: relative;
   z-index: 1;
 }
+
+
+
+/* =========================
+   MAIN MENU
+========================= */
+.menu {
+  max-width: 600px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.menu button {
+  width: 100%;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.menu button:hover {
+  border-color: var(--color-accent);
+  background: var(--bg-hover);
+  transform: translateY(-2px);
+}
+
 
 /* =========================
    TABLE
@@ -329,12 +367,12 @@ tr.top3 {
   background: var(--bg-button);
   border: 1px solid var(--border-primary);
   color: var(--text-primary);
+  
   border-radius: 8px;
   cursor: pointer;
   z-index: 999;
   transition: 0.2s;
 }
-
 .back-button { left: 30px; }
 .theme-toggle { right: 30px; }
 
