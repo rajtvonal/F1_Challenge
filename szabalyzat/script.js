@@ -1,5 +1,5 @@
 // SZABÁLYZAT BETÖLTÉSE
-fetch("../database/F1rules.txt")
+fetch("../database/F1/rules.txt")
   .then(res => res.text())
   .then(text => generateRules(text));
 

@@ -16,7 +16,7 @@ function updateHeader(cols){
 }
 
 function loadPoints(){
-  return fetch("../database/pontrendszer.csv")
+  return fetch("../database/F1/pontrendszer.csv")
   .then(r=>r.text())
   .then(t=>{
     t.trim().split("\n").forEach(line=>{
@@ -30,7 +30,7 @@ function loadResults(btn){
   setActive(btn);
   hideRaceButtons();
 
-  fetch("../database/F1Challenge_results.csv")
+  fetch("../database/F1/F1Challenge_results.csv")
   .then(r=>r.text())
   .then(t=>{
     let data = t.trim().split("\n").map(r=>{
@@ -221,7 +221,7 @@ async function showRaceButtons() {
 
   for (let i = 1; i <= 12; i++) {
      try {
-      let res = await fetch(`../database/R${i}.csv`, { method: "HEAD" });
+      let res = await fetch(`../database/F1/R${i}.csv`, { method: "HEAD" });
       if (!res.ok) continue; // nincs ilyen fájl
     
       let b = document.createElement("button");
@@ -231,7 +231,7 @@ async function showRaceButtons() {
         buttons.forEach(btn => btn.classList.remove("active"));
         b.classList.add("active");
 
-        let file = `../database/R${i}.csv?v=${Date.now()}`;
+        let file = `../database/F1/R${i}.csv?v=${Date.now()}`;
         fetch(file)
         .then(r => r.text())
         .then(text => {
