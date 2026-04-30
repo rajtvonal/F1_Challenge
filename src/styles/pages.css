@@ -1,0 +1,137 @@
+/* =========================
+   MAIN MENU CONTAINER
+========================= */
+.container.menu {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+/* =========================
+   MAIN MENU BUTTONS
+========================= */
+.container.menu button {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container.menu button:hover {
+  transform: translateY(-2px);
+}
+
+
+
+/* =========================
+   NAVBAR CONTAINER
+========================= */
+.container.navbar {
+  margin-top: 30px;
+  max-width: 100%;
+}
+/* =========================
+   NAVBAR BUTTONS
+========================= */
+.container.navbar button {
+  padding: 15px 30px;
+  font-size: 16px;
+}
+
+
+
+/* =========================
+   TÁBLÁZAT CONTAINER
+========================= */
+.container.tablazat {
+  max-width: 1000px;
+}
+
+.container.tablazat.elokvali {
+  max-width: 900px;
+}
+
+.container.results {
+  max-width: 1200px;
+}
+
+
+
+/* =========================
+   ELŐKVALI TÁBLA ÉRTÉKEK
+========================= */
+td.name {
+  text-align: left;
+  font-weight: 700;
+  width: 35%;
+}
+td.time {
+  color: var(--text-secondary);
+  width: 100px;
+}
+td.total {
+  color: var(--color-total);
+  font-weight: 700;
+}
+.delta {
+  color: var(--color-accent);
+  font-size: 11px;
+}
+
+
+/* =========================
+   SZABÁLYZAT
+========================= */
+.container.rule {
+    max-width: 900px;
+}
+/* =========================
+   SZABÁLYPONT-RENDSZER
+========================= */
+.level-1 { margin-top: 40px; }
+.level-2 { margin-left: 20px; margin-top: 20px; }
+.level-3 { margin-left: 40px; margin-top: 15px; }
+
+.level-1-title {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--color-accent);
+}
+.level-2-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.level-3-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.level-text {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+
+/* =========================
+   VERSENY NAPTÁR
+========================= */
+.container.tablazat.calendar {
+  max-width: 600px;
+}
+
+
+/* =========================
+   VERSENY BEÁLLÍTÁSOK
+========================= */
+.container.settings {
+  max-width: 600px;
+}
+.level-2 span {
+  color: var(--text-secondary);
+}

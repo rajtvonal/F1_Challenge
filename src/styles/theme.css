@@ -1,0 +1,78 @@
+/* =========================
+   MAIN THEME: DANK MODE
+========================= */
+:root {
+  /* BACKGROUND */
+  --bg-primary: #0a0a12;
+  --bg-secondary: #10101e;
+  --bg-hover: #1a1a3a;
+  --bg-row-even: #0e0e22;
+  --bg-row-odd: #12122a;
+  --bg-row-hover: #1a1a3a;
+
+  /* SURFACE */
+  --bg-button: var(--bg-secondary);
+  --bg-header: var(--bg-primary);
+
+  /* COLORS */
+  --color-accent: #db0a40;
+  --color-accent-glow: rgba(219,10,64,0.3);
+  --color-highlight: rgba(219,10,64,0.08);
+
+  /* TEXT */
+  --text-primary: #f0f0f5;
+  --text-secondary: #8888aa;
+  --text-strong: #ffffff;
+
+  /* BORDER */
+  --border-primary: #1e1e3a;
+
+  /* SPECIAL */
+  --color-gold: gold;
+  --color-silver: silver;
+  --color-bronze: #cd7f32;
+
+  --bg-top1: rgba(255,215,0,0.08);
+  --bg-top2: rgba(192,192,192,0.08);
+  --bg-top3: rgba(205,127,50,0.08);
+
+  --color-total: #ffc906;
+}
+
+
+/* =========================
+   LIGHT MODE
+========================= */
+body.light {
+  /* BACKGROUND */
+  --bg-primary: #e8e8ee;
+  --bg-secondary: #eeeef5;
+  --bg-hover: #f8fbff;
+  --bg-row-even: #f0f0f5;
+  --bg-row-odd: #ffffff;
+  --bg-row-hover: #f8fbff;
+  
+  /* SURFACE */
+  --bg-button: var(--bg-secondary);
+  --bg-header: var(--bg-primary);
+
+  /* COLORS */
+  --color-accent: #db0a40;
+  --color-accent-glow: rgba(219,10,64,0.2);
+  --color-highlight: rgba(219,10,64,0.15);
+
+  /* TEXT */
+  --text-primary: #111;
+  --text-secondary: #555;
+  --text-strong: #000;
+
+  /* BORDER */
+  --border-primary: #acacac;
+
+  /* SPECIAL */
+  --bg-top1: rgba(255,215,0,0.15);
+  --bg-top2: rgba(192,192,192,0.15);
+  --bg-top3: rgba(205,127,50,0.15);
+
+  --color-total: #ceba09;
+}

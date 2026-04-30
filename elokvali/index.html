@@ -6,28 +6,40 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../src/styles/theme.css">
+<link rel="stylesheet" href="../src/styles/base.css">
+<link rel="stylesheet" href="../src/styles/components.css">
+<link rel="stylesheet" href="../src/styles/animations.css">
+<link rel="stylesheet" href="../src/styles/pages.css">
 </head>
 
 <body>
 
-<div class="bg-glow"></div>
+<div class="bg-glow animate"></div>
 
 <div class="back-button" onclick="goBack()">
   ← Vissza
+</div>
+
+<div class="theme-toggle" onclick="toggleTheme()">
+  🌙
 </div>
 
 <div class="header">
   <div class="title">Rajtvonal <span>Előkvalifikáció</span></div>
   <div class="subtitle">LEADERBOARD</div>
 
-  <div class="buttons">
-    <button id="defaultBtn" onclick="loadData('f1challenge.csv', this)">F1 Challenge</button>
-    <button onclick="loadData('simmasters.csv', this)">Sim Masters</button>
+  <div class="container navbar">
+    <button id="defaultBtn" onclick="loadData('../database/f1challenge.csv', this)">F1 Challenge</button>
+    <button onclick="loadData('../database/simmasters.csv', this)">Sim Masters</button>
   </div>
 </div>
 
-<div class="wrapper">
+<div class="search-box">
+  <input type="text" id="search" placeholder="Keresés... (Ctrl+F)">
+</div>
+
+<div class="container tablazat elokvali">
 <table>
 <thead>
 <tr>
@@ -43,11 +55,19 @@
 </table>
 </div>
 
+<div class="no-result" id="noResult">
+  Nincs találat
+</div>
+
 <div class="footer">
   Legutóbbi módosítás: 2026. 04. 27. | 14:32
 </div>
 
-
+<script src="../src/scripts/laptimehandle.js"></script>
+<script src="../src/scripts/searchbox.js"></script>
+<script>initSearch({inputId: "search", noResultId: "noResult", mode: "table" });</script>
+<script src="../src/scripts/themeswitch.js"></script>
+<script src="../src/scripts/backbutton.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

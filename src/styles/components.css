@@ -1,0 +1,149 @@
+/* =========================
+   DEFAULT CONTAINER
+========================= */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+
+/* =========================
+   DEFAULT BUTTONS
+========================= */
+button {
+  background: var(--bg-button);
+  border: 1px solid var(--border-primary);
+  color: var(--text-primary);
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  border-color: var(--color-accent);
+  background: var(--bg-hover);
+}
+button.active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--text-strong);
+}
+
+
+
+/* =========================
+   BACK and THEME BUTTON
+========================= */
+.back-button,
+.theme-toggle {
+  position: fixed;
+  padding: 10px 14px;
+  background: var(--bg-button);
+  border: 1px solid var(--border-primary);
+  color: var(--text-primary);
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 999;
+  transition: 0.2s;
+}
+.back-button { top: 40px; left: 40px; }
+.theme-toggle { top: 40px; right: 40px; }
+
+.back-button:hover,
+.theme-toggle:hover {
+  color: var(--color-accent);
+  background: var(--bg-hover);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 12px var(--color-accent-glow);
+}
+.back-button:active {
+  transform: scale(0.95);
+}
+
+
+
+/* =========================
+   TABLE
+========================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+}
+
+th {
+  background: var(--bg-header);
+  padding: 12px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+  border-bottom: 2px solid var(--color-accent);
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid var(--border-primary);
+}
+
+tr:nth-child(even) {
+  background: var(--bg-row-even);
+}
+tr:nth-child(odd) {
+  background: var(--bg-row-odd);
+}
+tr:hover {
+  background: var(--bg-hover);
+}
+
+/* =========================
+   SPECIFIC TEXT COLORS
+========================= */
+.top-1 { background: var(--bg-top1); }
+.top-2 { background: var(--bg-top2); }
+.top-3 { background: var(--bg-top3); }
+.rank-1 { border-left: 3px solid var(--color-gold);   color: var(--color-gold);   font-weight: 900; }
+.rank-2 { border-left: 3px solid var(--color-silver); color: var(--color-silver); font-weight: 900; }
+.rank-3 { border-left: 3px solid var(--color-bronze); color: var(--color-bronze); font-weight: 900; }
+
+
+
+/* =========================
+   SEARCH BOX
+========================= */
+.search-box {
+  text-align: center;
+  margin: 40px 0;
+}
+.search-box input {
+  width: 300px;
+  padding: 10px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  color: var(--text-primary);
+  border-radius: 6px;
+}
+.highlight {
+  background: var(--color-accent-glow);
+  border-radius: 4px;
+  padding: 1px 3px;
+}
+.no-result {
+  text-align: center;
+  color: var(--color-accent);
+  font-size: 2rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  display: none;
+}
+
+
+

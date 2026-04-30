@@ -1,12 +1,10 @@
-function goBack(){ window.location.href = "../"; }
-
 // SZABÁLYZAT BETÖLTÉSE
-fetch("rules.txt")
+fetch("../database/F1rules.txt")
   .then(res => res.text())
   .then(text => generateRules(text));
 
 function generateRules(text){
-  const container = document.querySelector(".container");
+  const container = document.querySelector(".container.rule");
   container.innerHTML = "";
 
   const lines = text.split("\n");
@@ -77,55 +75,4 @@ function createDiv(className){
   return div;
 }
 
-// SEARCH BOX
-const input = document.getElementById("search");
-const noResult = document.getElementById("noResult");
 
-input.addEventListener("input", function(){
-  const val = this.value.toLowerCase().trim();
-  let found = false;
-
-  const allBlocks = document.querySelectorAll(".level-1, .level-2, .level-3");
-
-  // RESET
-  document.querySelectorAll(".level-text, .level-1-title, .level-2-title, .level-3-title")
-    .forEach(el => {
-      el.innerHTML = el.innerText;
-    });
-
-  allBlocks.forEach(b => b.style.display = "block");
-
-  if(val === ""){
-    noResult.style.display = "none";
-    return;
-  }
-
-  allBlocks.forEach(block => {
-    const text = block.innerText.toLowerCase();
-
-    if(text.includes(val)){
-      found = true;
-
-      // highlight
-      block.querySelectorAll(".level-text, .level-1-title, .level-2-title, .level-3-title")
-        .forEach(el => {
-          const original = el.innerText;
-          const regex = new RegExp(`(${val})`, "gi");
-          el.innerHTML = original.replace(regex, `<span class="highlight">$1</span>`);
-        });
-
-    } else {
-      block.style.display = "none";
-    }
-  });
-
-  noResult.style.display = found ? "none" : "block";
-});
-
-// Ctrl+F override
-document.addEventListener("keydown", e=>{
-  if(e.ctrlKey && e.key === "f"){
-    e.preventDefault();
-    input.focus();
-  }
-});

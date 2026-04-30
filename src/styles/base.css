@@ -1,0 +1,78 @@
+
+/* =========================
+   BASE
+========================= */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+
+/* =========================
+   BACKGROUND GLOW
+========================= */
+.bg-glow {
+  position: fixed;
+  top: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 600px;
+  background: radial-gradient(ellipse, var(--color-accent-glow) 0%, transparent 70%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.bg-glow.animate {
+  animation: glowMove 10s ease-in-out infinite alternate;
+}
+
+@keyframes glowMove {
+  0% { transform: translateX(-50%) translateY(0); opacity: 0.6; }
+  100% { transform: translateX(-55%) translateY(-40px); opacity: 1; }
+}
+
+
+/* =========================
+   HEADER
+========================= */
+.header {
+  text-align: center;
+  padding: 70px 20px 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: var(--color-accent);
+  text-transform: uppercase;
+}
+
+.title span {
+  color: var(--text-primary);
+  text-shadow: 0 0 40px var(--color-accent-glow);
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 0.3em;
+  color: var(--text-secondary);
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+

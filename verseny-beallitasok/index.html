@@ -1,1 +1,66 @@
-BEÁLLÍTÁSOK
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<title>F1 Challenge Szabályzat</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../src/styles/theme.css">
+<link rel="stylesheet" href="../src/styles/base.css">
+<link rel="stylesheet" href="../src/styles/components.css">
+<link rel="stylesheet" href="../src/styles/animations.css">
+<link rel="stylesheet" href="../src/styles/pages.css">
+</head>
+
+<body>
+
+<div class="bg-glow animate"></div>
+
+<div class="back-button" onclick="goBack()">
+  ← Vissza
+</div>
+
+<div class="theme-toggle" onclick="toggleTheme()">
+  🌙
+</div>
+
+<div class="header">
+  <div class="title">Rajtvonal <span>F1 Challenge</span></div>
+  <div class="subtitle">VERSENY BEÁLLÍTÁSOK</div>
+</div>
+
+<div class="search-box">
+  <input type="text" id="search" placeholder="Keresés... (Ctrl+F)">
+</div>
+
+<div class="container settings">
+  <div class="level-1">
+    <div class="level-1-title">Event Settings:</div>
+      <div class="level-2">Lobby: <span>Open</span></div>
+  </div>
+  
+</div>
+
+<div class="container settings">
+  <div class="level-1">
+    <div class="level-1-title">Event Settings:</div>
+      <div class="level-2">Lobby: <span>Open</span></div>
+  </div>
+  
+</div>
+
+<div class="no-result" id="noResult">
+  Nincs találat
+</div>
+
+<div class="footer">
+  Rajtvonal F1 Challenge • Szabályzat
+</div>
+
+<script src="../src/scripts/searchbox.js"></script>
+<script>initSearch({inputId: "search", noResultId: "noResult", mode: "settings" });</script>
+<script src="../src/scripts/themeswitch.js"></script>
+<script src="../src/scripts/backbutton.js"></script>
+</body>
+</html>
